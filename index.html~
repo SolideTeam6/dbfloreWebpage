@@ -55,17 +55,19 @@
 			<!-- Header -->
 				<div id="header">
 					<!-- Inner -->
-						<div class="inner">
+						<div class="inner" style="margin-top: -15%;">
 							<!-- -->
 							<header>
-<div class="row" style="margin-top: -30%;">
-<article class="6u 6u(mobile) special">
+<div class="row" style="margin-top: -35%;">
+<article class="4u 6u(mobile) special">
+</article>
+<article class="4u 6u(mobile) special">
 <div class="image">
-									<img style="margin-left: 17.5%; width:65%;" src="images/db-flore.png"></img>
+									<img style="margin-left: 17.5%; width:95%;" src="images/db-flore.png"></img>
 								</div>
 </article>
-<article class="4u 12u(mobile) special">
-	<div class="image"><img style="width:65%;" src="images/prom.jpg"/></div>
+<article class="4u 6u(mobile) special">
+	<div class="image"><img style="width:65%;" src="images/promo.jpg"/></div>
 <header>
 	<h3 style="color: rgb(231, 230, 230);">Promoción</h3>
 </header>
