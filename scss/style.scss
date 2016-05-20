@@ -10,10 +10,7 @@ $grey_dark: #3f3d4e;
 body{
     font-family: helvetica,sans-serif;
     -webkit-font-smoothing: antialiased;
-    background-image: url(../images/banner_background.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: auto;
+
 }
 .wrapper{
     width: 1440px;
@@ -56,6 +53,10 @@ body{
 /* -------------------------Configuracion Banner----------------------------- */
 #banner{
 
+    background-image: url(../images/banner_background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
     header{
         padding: 2rem 0;
     }
