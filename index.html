@@ -5,8 +5,18 @@
         <title>DbFlore | Floristeria</title>
         <link rel="stylesheet" href="css/style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="css/font-awesome-4.6.3/css/font-awesome.min.css">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
     </head>
     <body>
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6&appId=972993129464399";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
         <section id="banner">
             <div class="wrapper">
                 <header>
@@ -14,7 +24,7 @@
                         DB<span>flore</span>
                     </p>
                     <nav>
-                        <a href="" class="button button_secondary button_small">#dbFlore #floristeria #chihuahua #floreria #solideMX</a>
+                        <a href="https://www.facebook.com/DBFlore/?fref=ts" class="button">#dbFlore #floristeria #chihuahua</a>
                         <a href="#contact" class="button button_secondary button_small">contacto</a>
                     </nav>
                 </header>
@@ -22,15 +32,19 @@
                     <h1 class="title">
                         En Contruccion
                     </h1>
-                    <h2 class="subtitle">
+                    <p class="subtitle">
                         Vuelve proximamente a conocer nuestro sitio web.
-                    </h2>
+                    </p>
                     <div class="button_wrapper">
                         <a href="https://goo.gl/maps/7DinKHHjnoG2" class="button button_highlight">
-                            Visitanos!
+                            Como llegar <i class="fa fa-map-marker" aria-hidden="true"></i>
+
+
                         </a>
                         <a href="https://www.facebook.com/DBFlore/?fref=ts" class="button button_secondary">
-                            Facebook
+                            <div class="fb-share-button" data-href="https://www.facebook.com/DBFlore/?fref=ts" data-layout="button_count" data-mobile-iframe="false"></div>
+                            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+facebook
                         </a>
                     </div>
                 </div>
@@ -38,14 +52,14 @@
         </section>
         <section id="contact">
         <div class="wrapper">
-                <h2 class="title">Get in touch!</h2>
+                <h2 class="title">Visitanos</h2>
                 <p class="subtitle">
                     Chihuahua Chih,
                     (614)4217919
                     Av.José Maria iglesias (esquina con calle kenia)
                     colonia panorámico
                 </p>
-                <a href="#" class="button button_highlight button_large">Contact us</a>
+                <a href="#" class="button button_highlight button_large">Contactanos</a>
             </div>
         </section>
 
