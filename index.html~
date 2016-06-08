@@ -63,11 +63,11 @@
 </article>
 <article class="4u 6u(mobile) special">
 <div class="image">
-									<img style="margin-left: 17.5%; width:95%;" src="images/db-flore.png"></img>
+									<img style="margin-left: 17.5%; width:65%;" src="images/db-flore.png"></img>
 								</div>
 </article>
 <article class="4u 6u(mobile) special">
-	<div class="image"><img style="width:65%;" src="images/promo.jpg"/></div>
+	<div class="image"><img style="width:95%;" src="images/promo.jpg"/></div>
 <header>
 	<h3 style="color: rgb(231, 230, 230);">Promoción</h3>
 </header>
