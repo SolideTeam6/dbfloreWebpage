@@ -333,8 +333,8 @@
                         * Note: class "mlc" = close filter menu when clicking filter link.
                         -->
                         <div class="isotope-filter-links collapse navbar-collapse max-width-1170 margin-auto text-uppercase" id="isotope-filter-collapse">
-                            <a class="active no-radius" href="#" data-filter="*">Todos</a>
-                            <a class="no-radius" href="#" data-filter=".photography">Ramos</a>
+                            <!--a class="active no-radius" href="#" data-filter="*">Todos</a-->
+                            <a class="active no-radius" href="#" data-filter=".photography">Ramos</a>
                             <a class="no-radius" href="#" data-filter=".web-design">Arreglos</a>
                             <a class="no-radius" href="#" data-filter=".graphics">Regalos</a>
                             <!--<a class="no-radius" href="#" data-filter=".branding, .web-design">Mockups</a>-->
@@ -1122,7 +1122,7 @@
 }(document, 'script', 'facebook-jssdk'));</script>
     <script type="text/javascript">
 
-$("#contador").load( "/contador.php" );
+$("#contador").load( "/webpage/contador.php" );
 
     </script>
     </body>
