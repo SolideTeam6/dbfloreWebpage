@@ -65,6 +65,7 @@
                                 <li><i class="fa fa-phone"></i> 4 21 79 19</li>
                                 <li><i class="fa fa-envelope-o"></i><a href="mailto:support@mail.com">david_dbflore@hotmail.com</a></li>
                                 <li><i class="fa fa-envelope-o"></i><a href="mailto:support@mail.com">davidpinon@dbflore.com</a></li>
+<li><i class="fa fa-envelope-o"></i><a href="mailto:support@mail.com">facturas@dbflore.com</a></li>
                             </ul>
                         </div> <!-- /.col -->
                         <div class="col col-md-4">
@@ -115,6 +116,8 @@
                                 <li><a class="mlc sm-scroll" href="#section-4">Paquetes</a></li>
                                 <li><span class="nav-link-separator">/</span></li>
                                 <li><a class="mlc sm-scroll" href="#section-8">Contacto</a></li>
+				<li><span class="nav-link-separator">/</span></li>
+                                <li><a class="mlc sm-scroll" href="#section-8">Detalles de tu evento</a></li>
                             </ul>
 
                         </div>
@@ -266,6 +269,16 @@
                                 </div>
                                 <!-- End info box-4 -->
                             </div> <!-- /.col -->
+			    <div class="col-md-12">
+                                <!-- Begin info box-4 -->
+                                <div class="info-box info-box-4 info-box-white wow fadeIn" data-wow-delay="0.4s">
+                                    <span class="info-box-icon square-icon bg-main text-white"><i class="fa fa-credit-card"></i></span>
+                                    <div class="info-box-info">
+                                        <h4 class="info-box-title">Arma tu propio arreglo</h4>
+                                    </div>
+                                </div>
+                                <!-- End info box-4 -->
+                            </div> <!-- /.col -->
                         </div><!-- /.row -->
                     </div> <!-- /.col -->
                 </div><!-- /.row -->
@@ -333,10 +346,10 @@
                         * Note: class "mlc" = close filter menu when clicking filter link.
                         -->
                         <div class="isotope-filter-links collapse navbar-collapse max-width-1170 margin-auto text-uppercase" id="isotope-filter-collapse">
-                            <!--a class="active no-radius" href="#" data-filter="*">Todos</a-->
+                            <!--<a class="active no-radius" href="#" data-filter="*">Todos</a>-->
                             <a class="active no-radius" href="#" data-filter=".photography">Ramos</a>
                             <a class="no-radius" href="#" data-filter=".web-design">Arreglos</a>
-                            <a class="no-radius" href="#" data-filter=".graphics">Regalos</a>
+                            <a class="no-radius" href="#" data-filter=".graphics">Ofrendas florales</a>
                             <!--<a class="no-radius" href="#" data-filter=".branding, .web-design">Mockups</a>-->
                         </div>
                         <!-- End isotope filter links -->
@@ -350,16 +363,14 @@
                     <div class="isotope-items-wrap wow fadeIn" data-wow-delay="0.4s">
                         <!-- Grid sizer (do not remove!!!) -->
                         <div class="grid-sizer"></div>
-                        <!-- //////////////////
-                        // Begin isotope item. Note: use class "width2" for alternative item width (works best on first item)
-                        /////////////////////// -->
+                        <!--  Begin isotope item  -->
                         <div class="isotope-item web-design">
                             <!-- Begin portfolio item -->
                             <div class="portfolio-item-wrap">
                                 <div class="portfolio-item">
                                     <a class="item-link inline-popup-trigger" href="#portfolio-1">
                                         <span class="cover bg-transparent-9-main"></span>
-                                        <img class="item-img" src="assets/img/portfolio/v.2/portfolio-img-1.jpg" alt="image">
+                                        <img class="item-img" src="assets/img/arreglo1_.jpg" alt="image">
                                         <div class="item-info text-white">
                                             <h3 class="item-info-title"></h3>
                                             <p class="item-info-text">Arreglo</p>
@@ -369,7 +380,7 @@
                                 <!-- Begin inline popup content. Class "mfp-hide" is required to make dialog hidden -->
                                 <div id="portfolio-1" class="inline-popup mfp-hide">
                                     <div class="inline-popup-inner">
-                                        <div class="inline-popup-image bg-image" style="background-image: url(assets/img/portfolio/v.2/big/portfolio-img-1.jpg); background-position: 50% 50%;"></div>
+                                        <div class="inline-popup-image bg-image" style="background-image: url(assets/img/arreglo1_.jpg); background-position: 50% 50%;"></div>
                                         <div class="row margin-top-40">
                                             <div class="col-md-8 margin-bottom-20">
                                                 <h2 class="no-margin-top">Arreglo floral</h2>
@@ -394,16 +405,56 @@
                             <!-- End portfolio item -->
                         </div>
                         <!-- End isotope item -->
-                        <!-- //////////////////
-                        // Begin isotope item
-                        /////////////////////// -->
+                        <!--  Begin isotope item  -->
+                        <div class="isotope-item web-design">
+                            <!-- Begin portfolio item -->
+                            <div class="portfolio-item-wrap">
+                                <div class="portfolio-item">
+                                    <a class="item-link inline-popup-trigger" href="#portfolio-1">
+                                        <span class="cover bg-transparent-9-main"></span>
+                                        <img class="item-img" src="assets/img/arreglo2_.jpg" alt="image">
+                                        <div class="item-info text-white">
+                                            <h3 class="item-info-title"></h3>
+                                            <p class="item-info-text">Arreglo</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Begin inline popup content. Class "mfp-hide" is required to make dialog hidden -->
+                                <div id="portfolio-1" class="inline-popup mfp-hide">
+                                    <div class="inline-popup-inner">
+                                        <div class="inline-popup-image bg-image" style="background-image: url(assets/img/arreglo2_.jpg); background-position: 50% 50%;"></div>
+                                        <div class="row margin-top-40">
+                                            <div class="col-md-8 margin-bottom-20">
+                                                <h2 class="no-margin-top">Arreglo floral</h2>
+                                                <p></p>
+                                                <p></p>
+                                            </div>
+                                            <div class="col-md-4 margin-bottom-20 padding-left-40">
+                                                <ul class="list-unstyled">
+                                                    <li>Cliente: <strong><a href="#" target="_blank"></a></strong></li>
+                                                    <li>Fecha: <strong><a href="#" target="_blank">2016</a></strong></li>
+                                                    <li>Categoria <strong><a href="#" target="_blank">Arreglos</a></strong></li>
+                                                    <li>Copyright ©2016, Derechos die blume</li>
+                                                </ul>
+                                                <!--a href="#" target="_blank" class="btn btn-primary btn-lg margin-top-20">Launch Project</a-->
+                                            </div>
+                                        </div> <!-- /.row -->
+                                    </div> <!-- /.inline-popup-inner -->
+                                    <a class="inline-popup-close" href="#"><i class="fa fa-times"></i></a>
+                                </div>
+                                <!-- End inline popup content -->
+                            </div>
+                            <!-- End portfolio item -->
+                        </div>
+                        <!-- End isotope item -->
+                        <!-- Begin isotope item -->
                         <div class="isotope-item web-design">
                             <!-- Begin portfolio item -->
                             <div class="portfolio-item-wrap">
                                 <div class="portfolio-item">
                                     <a class="item-link inline-popup-trigger" href="#portfolio-2">
                                         <span class="cover bg-transparent-9-main"></span>
-                                        <img class="item-img" src="assets/img/portfolio/v.2/portfolio-img-2.jpg" alt="image">
+                                        <img class="item-img" src="assets/img/arreglo3_.jpg" alt="image">
                                         <div class="item-info text-white">
                                             <h3 class="item-info-title"></h3>
                                             <p class="item-info-text">Arreglo</p>
@@ -413,7 +464,7 @@
                                 <!-- Begin inline popup content. Class "mfp-hide" is required to make dialog hidden -->
                                 <div id="portfolio-2" class="inline-popup mfp-hide">
                                     <div class="inline-popup-inner">
-                                        <div class="inline-popup-image bg-image" style="background-image: url(assets/img/portfolio/v.2/big/portfolio-img-2.jpg); background-position: 50% 50%;"></div>
+                                        <div class="inline-popup-image bg-image" style="background-image: url(assets/img/arreglo3_.jpg); background-position: 50% 50%;"></div>
                                         <div class="row margin-top-40">
                                             <div class="col-md-8 margin-bottom-20">
                                                 <h2 class="no-margin-top">Arreglo Floral.</h2>
@@ -438,85 +489,27 @@
                             <!-- End portfolio item -->
                         </div>
                         <!-- End isotope item -->
-                        <!-- //////////////////
-                        // Begin isotope item
-                        /////////////////////// -->
+                        <!-- Begin isotope item -->
                         <div class="isotope-item web-design">
                             <!-- Begin portfolio item -->
                             <div class="portfolio-item-wrap">
                                 <div class="portfolio-item">
-                                    <a class="item-link inline-popup-trigger" href="#portfolio-3">
+                                    <a class="item-link inline-popup-trigger" href="#portfolio-2">
                                         <span class="cover bg-transparent-9-main"></span>
-                                        <img class="item-img" src="assets/img/portfolio/v.2/portfolio-img-3.jpg" alt="image">
+                                        <img class="item-img" src="assets/img/arreglo5_.jpg" alt="image">
                                         <div class="item-info text-white">
-                                            <h3 class="item-info-title">Arreglo Floral</h3>
-                                            <p class="item-info-text"></p>
+                                            <h3 class="item-info-title"></h3>
+                                            <p class="item-info-text">Arreglo</p>
                                         </div>
                                     </a>
                                 </div>
                                 <!-- Begin inline popup content. Class "mfp-hide" is required to make dialog hidden -->
-                                <div id="portfolio-3" class="inline-popup mfp-hide">
+                                <div id="portfolio-2" class="inline-popup mfp-hide">
                                     <div class="inline-popup-inner">
-                                        <!-- Begin content carousel (http://www.owlcarousel.owlgraphic.com)
-                                        ====================================================================
-                                        * Use class "nav-outside" for outside nav.
-                                        * Use class "nav-outside-top" for outside top nav.
-                                        * Use class "nav-rounded" for rounded nav.
-                                        * Use class "dots-outside" for outside dots.
-                                        * Use class "dots-left" or "dots-right" to align dots.
-                                        * Use class "dots-rounded" for rounded dots.
-                                        * Available carousel data attributes:
-                                                data-items="5".......................(items visible on desktop)
-                                                data-tablet-landscape="4"............(items visible on mobiles)
-                                                data-tablet-portrait="3".............(items visible on mobiles)
-                                                data-mobile-landscape="2"............(items visible on tablets)
-                                                data-mobile-portrait="1".............(items visible on tablets)
-                                                data-loop="true".....................(true/false)
-                                                data-margin="10".....................(space between items)
-                                                data-center="true"...................(true/false)
-                                                data-start-position="0"..............(item start position)
-                                                data-animate-in="fadeIn".............(more animations: http://daneden.github.io/animate.css/)
-                                                data-animate-out="fadeOut"...........(more animations: http://daneden.github.io/animate.css/)
-                                                data-mouse-drag="false"..............(true/false)
-                                                data-touch-drag="false"..............(true/false)
-                                                data-autoheight="true"...............(true/false)
-                                                data-autoplay="true".................(true/false)
-                                                data-autoplay-timeout="5000".........(milliseconds)
-                                                data-autoplay-hover-pause="true".....(true/false)
-                                                data-autoplay-speed="800"............(milliseconds)
-                                                data-drag-end-speed="800"............(milliseconds)
-                                                data-lazy-load="true"................(true/false)
-                                                data-nav="true"......................(true/false)
-                                                data-nav-speed="800".................(milliseconds)
-                                                data-dots="false"....................(true/false)
-                                                data-dots-speed="800"................(milliseconds)
-                                        -->
-                                        <div class="owl-carousel portfolio-single-carousel dots-outside" data-items="1" data-nav="true">
-
-                                            <!-- Begin carousel item
-                                            ========================= -->
-                                            <div class="cc-item">
-                                                <div class="inline-popup-image bg-image" style="background-image: url(assets/img/portfolio/v.2/big/portfolio-img-3.jpg); background-position: 50% 50%;"></div>
-                                            </div>
-                                            <!-- End carousel item -->
-                                            <!-- Begin carousel item
-                                            ========================= -->
-                                            <div class="cc-item">
-                                                <div class="inline-popup-image bg-image" style="background-image: url(assets/img/portfolio/v.2/big/portfolio-img-4.jpg); background-position: 50% 50%;"></div>
-                                            </div>
-                                            <!-- End carousel item -->
-                                            <!-- Begin carousel item
-                                            ========================= -->
-                                            <div class="cc-item">
-                                                <div class="inline-popup-image bg-image" style="background-image: url(assets/img/portfolio/v.2/big/portfolio-img-5.jpg); background-position: 50% 50%;"></div>
-                                            </div>
-                                            <!-- End carousel item -->
-
-                                        </div>
-                                        <!-- End content carousel -->
-                                        <div class="row margin-top-80">
+                                        <div class="inline-popup-image bg-image" style="background-image: url(assets/img/arreglo5_.jpg); background-position: 50% 50%;"></div>
+                                        <div class="row margin-top-40">
                                             <div class="col-md-8 margin-bottom-20">
-                                                <h2 class="no-margin-top">Arreglo Floral</h2>
+                                                <h2 class="no-margin-top">Arreglo Floral.</h2>
                                                 <p></p>
                                                 <p></p>
                                             </div>
@@ -527,7 +520,7 @@
                                                     <li>Categoria <strong><a href="#" target="_blank">Arreglos</a></strong></li>
                                                     <li>Copyright ©2016, Derechos die blume</li>
                                                 </ul>
-                                                <a href="#" target="_blank" class="btn btn-primary btn-lg margin-top-20">Launch Project</a>
+                                                <!--a href="#" target="_blank" class="btn btn-primary btn-lg margin-top-20">Launch Project</a-->
                                             </div>
                                         </div> <!-- /.row -->
                                     </div> <!-- /.inline-popup-inner -->
@@ -538,16 +531,56 @@
                             <!-- End portfolio item -->
                         </div>
                         <!-- End isotope item -->
-                        <!-- //////////////////
-                        // Begin isotope item
-                        /////////////////////// -->
+                        <!-- Begin isotope item -->
+                        <div class="isotope-item web-design">
+                            <!-- Begin portfolio item -->
+                            <div class="portfolio-item-wrap">
+                                <div class="portfolio-item">
+                                    <a class="item-link inline-popup-trigger" href="#portfolio-2">
+                                        <span class="cover bg-transparent-9-main"></span>
+                                        <img class="item-img" src="assets/img/arreglo6.jpg" alt="image">
+                                        <div class="item-info text-white">
+                                            <h3 class="item-info-title"></h3>
+                                            <p class="item-info-text">Arreglo</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Begin inline popup content. Class "mfp-hide" is required to make dialog hidden -->
+                                <div id="portfolio-2" class="inline-popup mfp-hide">
+                                    <div class="inline-popup-inner">
+                                        <div class="inline-popup-image bg-image" style="background-image: url(assets/img/arreglo6.jpg); background-position: 50% 50%;"></div>
+                                        <div class="row margin-top-40">
+                                            <div class="col-md-8 margin-bottom-20">
+                                                <h2 class="no-margin-top">Arreglo Floral.</h2>
+                                                <p></p>
+                                                <p></p>
+                                            </div>
+                                            <div class="col-md-4 margin-bottom-20 padding-left-40">
+                                                <ul class="list-unstyled">
+                                                    <li>Cliente: <strong><a href="#" target="_blank"></a></strong></li>
+                                                    <li>Fecha: <strong><a href="#" target="_blank">2016</a></strong></li>
+                                                    <li>Categoria <strong><a href="#" target="_blank">Arreglos</a></strong></li>
+                                                    <li>Copyright ©2016, Derechos die blume</li>
+                                                </ul>
+                                                <!--a href="#" target="_blank" class="btn btn-primary btn-lg margin-top-20">Launch Project</a-->
+                                            </div>
+                                        </div> <!-- /.row -->
+                                    </div> <!-- /.inline-popup-inner -->
+                                    <a class="inline-popup-close" href="#"><i class="fa fa-times"></i></a>
+                                </div>
+                                <!-- End inline popup content -->
+                            </div>
+                            <!-- End portfolio item -->
+                        </div>
+                        <!-- End isotope item -->
+                        <!--  Begin isotope item  -->
                         <div class="isotope-item photography">
                             <!-- Begin portfolio item -->
                             <div class="portfolio-item-wrap">
                                 <div class="portfolio-item">
                                     <a class="item-link inline-popup-trigger" href="#portfolio-4">
                                         <span class="cover bg-transparent-9-main"></span>
-                                        <img class="item-img" src="assets/img/portfolio/v.2/portfolio-img-4.jpg" alt="image">
+                                        <img class="item-img" src="assets/img/ramo1.jpg" alt="image">
                                         <div class="item-info text-white">
                                             <h3 class="item-info-title">Ramo</h3>
                                             <p class="item-info-text"></p>
@@ -557,7 +590,7 @@
                                 <!-- Begin inline popup content. Class "mfp-hide" is required to make dialog hidden -->
                                 <div id="portfolio-4" class="inline-popup mfp-hide">
                                     <div class="inline-popup-inner">
-                                        <div class="inline-popup-image bg-image" style="background-image: url(assets/img/portfolio/v.2/big/portfolio-img-4.jpg); background-position: 50% 50%;"></div>
+                                        <div class="inline-popup-image bg-image" style="background-image: url(assets/img/ramo1.jpg); background-position: 50% 50%;"></div>
                                         <div class="row margin-top-40">
                                             <div class="col-md-8 margin-bottom-20">
                                                 <h2 class="no-margin-top">Ramo</h2>
@@ -582,16 +615,14 @@
                             <!-- End portfolio item -->
                         </div>
                         <!-- End isotope item -->
-                        <!-- //////////////////
-                        // Begin isotope item
-                        /////////////////////// -->
+                        <!-- Begin isotope item  -->
                         <div class="isotope-item photography">
                             <!-- Begin portfolio item -->
                             <div class="portfolio-item-wrap">
                                 <div class="portfolio-item">
                                     <a class="item-link inline-popup-trigger" href="#portfolio-6">
                                         <span class="cover bg-transparent-9-main"></span>
-                                        <img class="item-img" src="assets/img/portfolio/v.2/portfolio-img-6.jpg" alt="image">
+                                        <img class="item-img" src="assets/img/ramo2.jpg" alt="image">
                                         <div class="item-info text-white">
                                             <h3 class="item-info-title">Ramo</h3>
                                             <p class="item-info-text"></p>
@@ -602,8 +633,7 @@
                                 <div id="portfolio-6" class="inline-popup mfp-hide">
                                     <div class="inline-popup-inner">
                                         <!-- Begin embed video (more info about reffering embed videos: https://www.feedthebot.com/pagespeed/defer-videos.htm) -->
-                                        <div class="inline-popup-image bg-image" style="background-image: url(assets/img/portfolio/v.2/big/portfolio-img-6.jpg); background-position: 50% 50%;"></div>
-
+                                        <div class="inline-popup-image bg-image" style="background-image: url(assets/img/ramo2.jpg); background-position: 50% 50%;"></div>
                                         <!-- End embed video -->
                                         <div class="row margin-top-40">
                                             <div class="col-md-8 margin-bottom-20">
@@ -629,29 +659,29 @@
                             <!-- End portfolio item -->
                         </div>
                         <!-- End isotope item -->
-                        <!-- //////////////////
-                        // Begin isotope item
-                        /////////////////////// -->
-                        <div class="isotope-item web-design">
+                        <!-- Begin isotope item  -->
+                        <div class="isotope-item photography">
                             <!-- Begin portfolio item -->
                             <div class="portfolio-item-wrap">
                                 <div class="portfolio-item">
-                                    <a class="item-link inline-popup-trigger" href="#portfolio-7">
+                                    <a class="item-link inline-popup-trigger" href="#portfolio-6">
                                         <span class="cover bg-transparent-9-main"></span>
-                                        <img class="item-img" src="assets/img/portfolio/v.2/portfolio-img-7.jpg" alt="image">
+                                        <img class="item-img" src="assets/img/ramo3.jpg" alt="image">
                                         <div class="item-info text-white">
-                                            <h3 class="item-info-title">Arreglo Floral</h3>
+                                            <h3 class="item-info-title">Ramo</h3>
                                             <p class="item-info-text"></p>
                                         </div>
                                     </a>
                                 </div>
                                 <!-- Begin inline popup content. Class "mfp-hide" is required to make dialog hidden -->
-                                <div id="portfolio-7" class="inline-popup mfp-hide">
+                                <div id="portfolio-6" class="inline-popup mfp-hide">
                                     <div class="inline-popup-inner">
-                                        <div class="inline-popup-image bg-image" style="background-image: url(assets/img/portfolio/v.2/big/portfolio-img-7.jpg); background-position: 50% 50%;"></div>
+                                        <!-- Begin embed video (more info about reffering embed videos: https://www.feedthebot.com/pagespeed/defer-videos.htm) -->
+                                        <div class="inline-popup-image bg-image" style="background-image: url(assets/img/ramo3.jpg); background-position: 50% 50%;"></div>
+                                        <!-- End embed video -->
                                         <div class="row margin-top-40">
                                             <div class="col-md-8 margin-bottom-20">
-                                                <h2 class="no-margin-top">Arreglo Floral</h2>
+                                                <h2 class="no-margin-top">Ramo</h2>
                                                 <p></p>
                                                 <p></p>
                                             </div>
@@ -659,7 +689,7 @@
                                                 <ul class="list-unstyled">
                                                     <li>Cliente: <strong><a href="#" target="_blank"></a></strong></li>
                                                     <li>Fecha: <strong><a href="#" target="_blank">2016</a></strong></li>
-                                                    <li>Categoria <strong><a href="#" target="_blank">Arreglos Florales</a></strong></li>
+                                                    <li>Categoria <strong><a href="#" target="_blank">Ramos</a></strong></li>
                                                     <li>Copyright ©2016, Derechos die blume</li>
                                                 </ul>
                                                 <a href="#" target="_blank" class="btn btn-primary btn-lg margin-top-20">Launch Project</a>
@@ -673,29 +703,29 @@
                             <!-- End portfolio item -->
                         </div>
                         <!-- End isotope item -->
-                        <!-- //////////////////
-                        // Begin isotope item
-                        /////////////////////// -->
-                        <div class="isotope-item web-design">
+                        <!-- Begin isotope item  -->
+                        <div class="isotope-item photography">
                             <!-- Begin portfolio item -->
                             <div class="portfolio-item-wrap">
                                 <div class="portfolio-item">
-                                    <a class="item-link inline-popup-trigger" href="#portfolio-8">
+                                    <a class="item-link inline-popup-trigger" href="#portfolio-6">
                                         <span class="cover bg-transparent-9-main"></span>
-                                        <img class="item-img" src="assets/img/portfolio/v.2/portfolio-img-8.jpg" alt="image">
+                                        <img class="item-img" src="assets/img/ramo4.jpg" alt="image">
                                         <div class="item-info text-white">
-                                            <h3 class="item-info-title">Arreglo Boda</h3>
+                                            <h3 class="item-info-title">Ramo</h3>
                                             <p class="item-info-text"></p>
                                         </div>
                                     </a>
                                 </div>
                                 <!-- Begin inline popup content. Class "mfp-hide" is required to make dialog hidden -->
-                                <div id="portfolio-8" class="inline-popup mfp-hide">
+                                <div id="portfolio-6" class="inline-popup mfp-hide">
                                     <div class="inline-popup-inner">
-                                        <div class="inline-popup-image bg-image" style="background-image: url(assets/img/portfolio/v.2/big/portfolio-img-8.jpg); background-position: 50% 50%;"></div>
+                                        <!-- Begin embed video (more info about reffering embed videos: https://www.feedthebot.com/pagespeed/defer-videos.htm) -->
+                                        <div class="inline-popup-image bg-image" style="background-image: url(assets/img/ramo4.jpg); background-position: 50% 50%;"></div>
+                                        <!-- End embed video -->
                                         <div class="row margin-top-40">
                                             <div class="col-md-8 margin-bottom-20">
-                                                <h2 class="no-margin-top">Arreglo de boda</h2>
+                                                <h2 class="no-margin-top">Ramo</h2>
                                                 <p></p>
                                                 <p></p>
                                             </div>
@@ -703,10 +733,264 @@
                                                 <ul class="list-unstyled">
                                                     <li>Cliente: <strong><a href="#" target="_blank"></a></strong></li>
                                                     <li>Fecha: <strong><a href="#" target="_blank">2016</a></strong></li>
-                                                    <li>Categoria <strong><a href="#" target="_blank">Arreglos para Auto</a></strong></li>
+                                                    <li>Categoria <strong><a href="#" target="_blank">Ramos</a></strong></li>
+                                                    <li>Copyright ©2016, Dereochos die blume</li>
+                                                </ul>
+                                                <a href="#" target="_blank" class="btn btn-primary btn-lg margin-top-20">Launch Project</a>
+                                            </div>
+                                        </div> <!-- /.row -->
+                                    </div> <!-- /.inline-popup-inner -->
+                                    <a class="inline-popup-close" href="#"><i class="fa fa-times"></i></a>
+                                </div>
+                                <!-- End inline popup content -->
+                            </div>
+                            <!-- End portfolio item -->
+                        </div>
+                        <!-- End isotope item -->
+                        <!-- Begin isotope item  -->
+                        <div class="isotope-item photography">
+                            <!-- Begin portfolio item -->
+                            <div class="portfolio-item-wrap">
+                                <div class="portfolio-item">
+                                    <a class="item-link inline-popup-trigger" href="#portfolio-6">
+                                        <span class="cover bg-transparent-9-main"></span>
+                                        <img class="item-img" src="assets/img/ramo5.jpg" alt="image">
+                                        <div class="item-info text-white">
+                                            <h3 class="item-info-title">Ramo</h3>
+                                            <p class="item-info-text"></p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Begin inline popup content. Class "mfp-hide" is required to make dialog hidden -->
+                                <div id="portfolio-6" class="inline-popup mfp-hide">
+                                    <div class="inline-popup-inner">
+                                        <!-- Begin embed video (more info about reffering embed videos: https://www.feedthebot.com/pagespeed/defer-videos.htm) -->
+                                        <div class="inline-popup-image bg-image" style="background-image: url(assets/img/ramo5.jpg); background-position: 50% 50%;"></div>
+                                        <!-- End embed video -->
+                                        <div class="row margin-top-40">
+                                            <div class="col-md-8 margin-bottom-20">
+                                                <h2 class="no-margin-top">Ramo</h2>
+                                                <p></p>
+                                                <p></p>
+                                            </div>
+                                            <div class="col-md-4 margin-bottom-20 padding-left-40">
+                                                <ul class="list-unstyled">
+                                                    <li>Cliente: <strong><a href="#" target="_blank"></a></strong></li>
+                                                    <li>Fecha: <strong><a href="#" target="_blank">2016</a></strong></li>
+                                                    <li>Categoria <strong><a href="#" target="_blank">Ramos</a></strong></li>
                                                     <li>Copyright ©2016, Derechos die blume</li>
                                                 </ul>
                                                 <a href="#" target="_blank" class="btn btn-primary btn-lg margin-top-20">Launch Project</a>
+                                            </div>
+                                        </div> <!-- /.row -->
+                                    </div> <!-- /.inline-popup-inner -->
+                                    <a class="inline-popup-close" href="#"><i class="fa fa-times"></i></a>
+                                </div>
+                                <!-- End inline popup content -->
+                            </div>
+                            <!-- End portfolio item -->
+                        </div>
+                        <!-- End isotope item -->
+                        <!-- Begin isotope item  -->
+                        <div class="isotope-item graphics">
+                            <!-- Begin portfolio item -->
+                            <div class="portfolio-item-wrap">
+                                <div class="portfolio-item">
+                                    <a class="item-link inline-popup-trigger" href="#portfolio-6">
+                                        <span class="cover bg-transparent-9-main"></span>
+                                        <img class="item-img" src="assets/img/ofrenda1.jpg" alt="image">
+                                        <div class="item-info text-white">
+                                            <h3 class="item-info-title">Ofrenda floral</h3>
+                                            <p class="item-info-text"></p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Begin inline popup content. Class "mfp-hide" is required to make dialog hidden -->
+                                <div id="portfolio-6" class="inline-popup mfp-hide">
+                                    <div class="inline-popup-inner">
+                                        <div class="inline-popup-image bg-image" style="background-image: url(assets/img/ofrenda1.jpg); background-position: 50% 50%;"></div>
+                                        <!-- End embed video -->
+                                        <div class="row margin-top-40">
+                                            <div class="col-md-8 margin-bottom-20">
+                                                <h2 class="no-margin-top">Ramo</h2>
+                                                <p></p>
+                                                <p></p>
+                                            </div>
+                                            <div class="col-md-4 margin-bottom-20 padding-left-40">
+                                                <ul class="list-unstyled">
+                                                    <li>Cliente: <strong><a href="#" target="_blank"></a></strong></li>
+                                                    <li>Fecha: <strong><a href="#" target="_blank">2016</a></strong></li>
+                                                    <li>Categoria <strong><a href="#" target="_blank">Ofrenda floral</a></strong></li>
+                                                    <li>Copyright ©2016, Derechos die blume</li>
+                                                </ul>
+                                            </div>
+                                        </div> <!-- /.row -->
+                                    </div> <!-- /.inline-popup-inner -->
+                                    <a class="inline-popup-close" href="#"><i class="fa fa-times"></i></a>
+                                </div>
+                                <!-- End inline popup content -->
+                            </div>
+                            <!-- End portfolio item -->
+                        </div>
+                        <!-- End isotope item -->
+                        <!-- Begin isotope item  -->
+                        <div class="isotope-item graphics">
+                            <!-- Begin portfolio item -->
+                            <div class="portfolio-item-wrap">
+                                <div class="portfolio-item">
+                                    <a class="item-link inline-popup-trigger" href="#portfolio-6">
+                                        <span class="cover bg-transparent-9-main"></span>
+                                        <img class="item-img" src="assets/img/ofrenda2.jpg" alt="image">
+                                        <div class="item-info text-white">
+                                            <h3 class="item-info-title">Ofrenda floral</h3>
+                                            <p class="item-info-text"></p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Begin inline popup content. Class "mfp-hide" is required to make dialog hidden -->
+                                <div id="portfolio-6" class="inline-popup mfp-hide">
+                                    <div class="inline-popup-inner">
+                                        <div class="inline-popup-image bg-image" style="background-image: url(assets/img/ofrenda2.jpg); background-position: 50% 50%;"></div>
+                                        <!-- End embed video -->
+                                        <div class="row margin-top-40">
+                                            <div class="col-md-8 margin-bottom-20">
+                                                <h2 class="no-margin-top">Ramo</h2>
+                                                <p></p>
+                                                <p></p>
+                                            </div>
+                                            <div class="col-md-4 margin-bottom-20 padding-left-40">
+                                                <ul class="list-unstyled">
+                                                    <li>Cliente: <strong><a href="#" target="_blank"></a></strong></li>
+                                                    <li>Fecha: <strong><a href="#" target="_blank">2016</a></strong></li>
+                                                    <li>Categoria <strong><a href="#" target="_blank">Ofrenda floral</a></strong></li>
+                                                    <li>Copyright ©2016, Derechos die blume</li>
+                                                </ul>
+                                            </div>
+                                        </div> <!-- /.row -->
+                                    </div> <!-- /.inline-popup-inner -->
+                                    <a class="inline-popup-close" href="#"><i class="fa fa-times"></i></a>
+                                </div>
+                                <!-- End inline popup content -->
+                            </div>
+                            <!-- End portfolio item -->
+                        </div>
+                        <!-- End isotope item -->
+                        <!-- Begin isotope item  -->
+                        <div class="isotope-item graphics">
+                            <!-- Begin portfolio item -->
+                            <div class="portfolio-item-wrap">
+                                <div class="portfolio-item">
+                                    <a class="item-link inline-popup-trigger" href="#portfolio-6">
+                                        <span class="cover bg-transparent-9-main"></span>
+                                        <img class="item-img" src="assets/img/ofrenda3.jpg" alt="image">
+                                        <div class="item-info text-white">
+                                            <h3 class="item-info-title">Ofrenda floral</h3>
+                                            <p class="item-info-text"></p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Begin inline popup content. Class "mfp-hide" is required to make dialog hidden -->
+                                <div id="portfolio-6" class="inline-popup mfp-hide">
+                                    <div class="inline-popup-inner">
+                                        <div class="inline-popup-image bg-image" style="background-image: url(assets/img/ofrenda3.jpg); background-position: 50% 50%;"></div>
+                                        <!-- End embed video -->
+                                        <div class="row margin-top-40">
+                                            <div class="col-md-8 margin-bottom-20">
+                                                <h2 class="no-margin-top">Ramo</h2>
+                                                <p></p>
+                                                <p></p>
+                                            </div>
+                                            <div class="col-md-4 margin-bottom-20 padding-left-40">
+                                                <ul class="list-unstyled">
+                                                    <li>Cliente: <strong><a href="#" target="_blank"></a></strong></li>
+                                                    <li>Fecha: <strong><a href="#" target="_blank">2016</a></strong></li>
+                                                    <li>Categoria <strong><a href="#" target="_blank">Ofrenda floral</a></strong></li>
+                                                    <li>Copyright ©2016, Derechos die blume</li>
+                                                </ul>
+                                            </div>
+                                        </div> <!-- /.row -->
+                                    </div> <!-- /.inline-popup-inner -->
+                                    <a class="inline-popup-close" href="#"><i class="fa fa-times"></i></a>
+                                </div>
+                                <!-- End inline popup content -->
+                            </div>
+                            <!-- End portfolio item -->
+                        </div>
+                        <!-- End isotope item -->
+                        <!-- Begin isotope item  -->
+                        <div class="isotope-item graphics">
+                            <!-- Begin portfolio item -->
+                            <div class="portfolio-item-wrap">
+                                <div class="portfolio-item">
+                                    <a class="item-link inline-popup-trigger" href="#portfolio-6">
+                                        <span class="cover bg-transparent-9-main"></span>
+                                        <img class="item-img" src="assets/img/ofrenda4.jpg" alt="image">
+                                        <div class="item-info text-white">
+                                            <h3 class="item-info-title">Ofrenda floral</h3>
+                                            <p class="item-info-text"></p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Begin inline popup content. Class "mfp-hide" is required to make dialog hidden -->
+                                <div id="portfolio-6" class="inline-popup mfp-hide">
+                                    <div class="inline-popup-inner">
+                                        <div class="inline-popup-image bg-image" style="background-image: url(assets/img/ofrenda4.jpg); background-position: 50% 50%;"></div>
+                                        <!-- End embed video -->
+                                        <div class="row margin-top-40">
+                                            <div class="col-md-8 margin-bottom-20">
+                                                <h2 class="no-margin-top">Ramo</h2>
+                                                <p></p>
+                                                <p></p>
+                                            </div>
+                                            <div class="col-md-4 margin-bottom-20 padding-left-40">
+                                                <ul class="list-unstyled">
+                                                    <li>Cliente: <strong><a href="#" target="_blank"></a></strong></li>
+                                                    <li>Fecha: <strong><a href="#" target="_blank">2016</a></strong></li>
+                                                    <li>Categoria <strong><a href="#" target="_blank">Ofrenda floral</a></strong></li>
+                                                    <li>Copyright ©2016, Derechos die blume</li>
+                                                </ul>
+                                            </div>
+                                        </div> <!-- /.row -->
+                                    </div> <!-- /.inline-popup-inner -->
+                                    <a class="inline-popup-close" href="#"><i class="fa fa-times"></i></a>
+                                </div>
+                                <!-- End inline popup content -->
+                            </div>
+                            <!-- End portfolio item -->
+                        </div>
+                        <!-- End isotope item -->
+                        <!-- Begin isotope item  -->
+                        <div class="isotope-item graphics">
+                            <!-- Begin portfolio item -->
+                            <div class="portfolio-item-wrap">
+                                <div class="portfolio-item">
+                                    <a class="item-link inline-popup-trigger" href="#portfolio-6">
+                                        <span class="cover bg-transparent-9-main"></span>
+                                        <img class="item-img" src="assets/img/ofrenda5.jpg" alt="image">
+                                        <div class="item-info text-white">
+                                            <h3 class="item-info-title">Ofrenda floral</h3>
+                                            <p class="item-info-text"></p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Begin inline popup content. Class "mfp-hide" is required to make dialog hidden -->
+                                <div id="portfolio-6" class="inline-popup mfp-hide">
+                                    <div class="inline-popup-inner">
+                                        <div class="inline-popup-image bg-image" style="background-image: url(assets/img/ofrenda5.jpg); background-position: 50% 50%;"></div>
+                                        <!-- End embed video -->
+                                        <div class="row margin-top-40">
+                                            <div class="col-md-8 margin-bottom-20">
+                                                <h2 class="no-margin-top">Ramo</h2>
+                                                <p></p>
+                                                <p></p>
+                                            </div>
+                                            <div class="col-md-4 margin-bottom-20 padding-left-40">
+                                                <ul class="list-unstyled">
+                                                    <li>Cliente: <strong><a href="#" target="_blank"></a></strong></li>
+                                                    <li>Fecha: <strong><a href="#" target="_blank">2016</a></strong></li>
+                                                    <li>Categoria <strong><a href="#" target="_blank">Ofrenda floral</a></strong></li>
+                                                    <li>Copyright ©2016, Derechos die blume</li>
+                                                </ul>
                                             </div>
                                         </div> <!-- /.row -->
                                     </div> <!-- /.inline-popup-inner -->
@@ -985,6 +1269,7 @@
                             <p><i class="fa fa-phone"></i> 4 21 79 19</p>
                             <p><i class="fa fa-envelope"></i> <a href="mailto:david_dbflore@hotmail.com" target="_blank">david_dbflore@hotmail.com</a></p>
                             <p><i class="fa fa-envelope"></i> <a href="mailto:davidpinon@dbflore.com" target="_blank">davidpinon@dbflore.com</a></p>
+<p><i class="fa fa-envelope"></i> <a href="mailto:facturas@dbflore.com" target="_blank">facturas@dbflore.com</a></p>
                         </div>
                         <h5 class="margin-top-40 margin-bottom-20">Siguenos:</h5>
                         <!-- Begin social icons -->
