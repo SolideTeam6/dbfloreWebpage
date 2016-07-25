@@ -1,12 +1,4 @@
-/*---------------------------------------------------------------------------------
 
-Master Stylesheet
-
-Template:	Asso - One Page HTML5 Website Template
-Author: 		Themetorium
-URL:			http://themetorium.net/
-
----------------------------------------------------------------------------------*/
 
 html, body {
 	padding: 0;
@@ -80,7 +72,7 @@ img {
 	}
 }
 
-/* Boxed layout (add class="boxed" in "<body>" tag to enable boxed layout. Example: <body class="boxed">) */
+
 @media (min-width : 1200px) {
 	body.boxed #body-content {
 		max-width: 1220px;
@@ -111,10 +103,6 @@ img {
 	}
 }
 
-
-/* ------------------------------------------------------------- *
- *  Page preloader (display loading animation while page loads)
-/* ------------------------------------------------------------- */
 
 #preloader {
 	position: fixed;
@@ -158,11 +146,6 @@ img {
 		opacity: 0;
 	}
 }
-
-
-/* ------------------------------------------------------------- *
- *  Top slidingbar
-/* ------------------------------------------------------------- */
 
 #top-slidingbar-wrapper {
 	position: absolute;
