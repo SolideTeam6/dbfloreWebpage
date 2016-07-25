@@ -41,7 +41,7 @@
     <link rel="stylesheet" href="assets/css/custom.css">
 </head>
 <!--  oncontextmenu='return false'-->
-<body data-spy="scroll" data-target="#scrollspy">
+<body data-spy="scroll" data-target="#scrollspy" oncontextmenu='return false'>
     <div id="preloader">
         <div class="pulse"></div>
     </div>
@@ -116,7 +116,7 @@
                                 <li><span class="nav-link-separator">/</span></li>
                                 <li><a class="mlc sm-scroll" href="#section-8">Contacto</a></li>
 				<li><span class="nav-link-separator">/</span></li>
-                                <li><a class="mlc sm-scroll" href="#section-8">Detalles de tu evento</a></li>
+                                <li><a class="mlc sm-scroll" href="#">Detalles de tu evento</a></li>
                             </ul>
 
                         </div>
