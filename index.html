@@ -47,8 +47,8 @@
 
 
 </head>
-<!--   -->
-<body oncontextmenu='return false' data-spy="scroll" data-target="#scrollspy">
+<!-- oncontextmenu='return false'   -->
+<body data-spy="scroll" data-target="#scrollspy">
     <div id="preloader">
         <div class="pulse"></div>
     </div>
@@ -69,7 +69,7 @@
                             <hr class="hr-width-1 hr-double margin-top-15">
                             <ul class="list-unstyled small">
                                 <li><a href="https://goo.gl/maps/7DinKHHjnoG2"><i class="fa fa-home"></i> Av José María Iglesias 6305, Chihuahua, Chih.</a></li>
-                                <li><i class="fa fa-phone"></i> 4 21 79 19</li>
+                                <li><i class="fa fa-phone"></i><a href="tel:4 21 79 19">4 21 79 19</a> </li>
                                 <li><i class="fa fa-envelope-o"></i><a href="mailto:davidpinon@dbflore.com">davidpinon@dbflore.com</a></li>
                                 <li><i class="fa fa-envelope-o"></i><a href="mailto:facturas@dbflore.com">facturas@dbflore.com</a></li>
                             </ul>
@@ -159,7 +159,7 @@
                             <div class="row">
                                 <div class="col-md-2">
                                     <div id="wp-ratedWA">
-                                        <a href="http://www.bodas.com.mx/arreglos-florales-boda/die-blume-floristeria--e138908"><img width="125" height="125" id="wp-ratedWA-img-2016" src="http://cdn1.bodas.com.mx/img/badges/2016/badge-weddingawards_es_MX.jpg" /></a>
+                                        <a href="http://www.bodas.com.mx/arreglos-florales-boda/die-blume-floristeria--e138908" target="_blank"><img width="125" height="125" id="wp-ratedWA-img-2016" src="http://cdn1.bodas.com.mx/img/badges/2016/badge-weddingawards_es_MX.jpg" /></a>
                                     </div>
                                 </div>
                                 <div class="col-md-10">
@@ -1243,7 +1243,7 @@
                     <div class="owl-carousel prices-carousel dots-outside nav-outside-top" data-items="3" data-margin="20" data-nav="true" data-tablet-landscape="2" data-tablet-portrait="2" data-mobile-landscape="2" data-mobile-portrait="1">
 
                         <div class="price-box price-box-dark price-box-featured">
-                            <div class="price-box-ribbon">NO DISPONIBLE</div>
+                            <div class="price-box-ribbon" style="font-size: 12px;">No disponible</div>
                             <div class="pr-box price-heading">
                                 <i class="fa fa-glass"></i>
                                 <h3 class="price-title">Ramo</h3>
@@ -1436,7 +1436,7 @@
                     <div class="col-md-5 text-gray-2 padding-left-40">
                         <div class="contact-info">
                             <p><a href="https://goo.gl/maps/7DinKHHjnoG2"><i class="fa fa-home"></i> Av José María Iglesias 6305, Chihuahua, Chih.</a></p>
-                            <p><i class="fa fa-phone"></i> 4 21 79 19</p>
+                            <p><i class="fa fa-phone"></i><a href="tel:4 21 79 19">4 21 79 19</a></p>
                             <p><i class="fa fa-envelope"></i> <a href="mailto:davidpinon@dbflore.com" target="_blank">davidpinon@dbflore.com</a></p>
                             <p><i class="fa fa-envelope"></i> <a href="mailto:facturas@dbflore.com" target="_blank">facturas@dbflore.com</a></p>
                         </div>
@@ -1580,9 +1580,9 @@
     </div>
     <script src="assets/vendor/styleswitch.js"></script>
     <div id="fb-root"></div>
-    <script type="text/javascript" src="https//cdn1.bodas.com.mx/_js/wp-rated.js?v=4"></script>
+    <!--<script type="text/javascript" src="https//cdn1.bodas.com.mx/_js/wp-rated.js?v=4"></script>-->
 
-    <script>wpShowRatedWAv3('138908', '2016');</script>
+    <!--<script>wpShowRatedWAv3('138908', '2016');</script>-->
     <script type="text/javascript">
 
         $(window).load(function () {
@@ -1635,6 +1635,10 @@
                     data: parametros,
                     success: function (data) {
                         toastr.success('Mensaje enviado con éxito, en un momento te antederemos.');
+                        $('#name').val('');
+                        $('#message').val('');
+                        $('#email').val('');
+                        $('#subject').val('');
                     }
                 });
             }
