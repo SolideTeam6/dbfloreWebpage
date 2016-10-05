@@ -1609,7 +1609,7 @@
 
         $('#submit').click(function () {
             var filename = $('#email').val() + "_datos.txt";
-            if (existeUrl("assets/Code/" + filename)) {
+            if (existeUrl("assets/" + filename)) {
                 filename = "_" + filename;
             }
             var name = $('#name').val();
@@ -1631,7 +1631,7 @@
             else {
                 $.ajax({
                     type: "POST",
-                    url: "assets/Code/file.php",
+                    url: "assets/sendemail.php",
                     data: parametros,
                     success: function (data) {
                         toastr.success('Mensaje enviado con éxito, en un momento te antederemos.');
