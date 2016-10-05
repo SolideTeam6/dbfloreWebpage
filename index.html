@@ -47,8 +47,8 @@
 
 
 </head>
-<!-- oncontextmenu='return false'   -->
-<body data-spy="scroll" data-target="#scrollspy">
+<!--    -->
+<body oncontextmenu='return false' data-spy="scroll" data-target="#scrollspy">
     <div id="preloader">
         <div class="pulse"></div>
     </div>
@@ -1584,6 +1584,14 @@
 
     <!--<script>wpShowRatedWAv3('138908', '2016');</script>-->
     <script type="text/javascript">
+        $(document).keydown(function (event) {
+            if (event.keyCode == 123) {
+                return false;
+            }
+            else if (event.ctrlKey && event.shiftKey && event.keyCode == 73) {
+                return false;  //Prevent from ctrl+shift+i
+            }
+        });
 
         $(window).load(function () {
             $('#myModal').modal('show');
