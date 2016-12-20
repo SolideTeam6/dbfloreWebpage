@@ -1454,7 +1454,7 @@
                         <!-- Begin contact form
                         ========================= -->
                     
-                        <form  name="frmContacto" class="margin-top-80 text-white wow fadeIn" method="post" action="sendbymail.php">
+                        <form  name="frmContacto" class="margin-top-80 text-white wow fadeIn">
                             <!-- Begin hidden required fields (https://github.com/agragregra/uniMail) -->
                             <input type="hidden" name="project_name" value="yourwebsiteaddress.com"> <!-- Change value to your site name -->
                             <input type="hidden" name="admin_email" value="your@email.com"> <!-- Change value to your email address (where a message will be sent) -->
@@ -1486,7 +1486,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <button type="submit" value="Enviar" id="submit" class="btn btn-primary btn-block btn-lg">Enviar mensaje</button>
+                                    <button type="submit" value="Enviar" id="submit_CONTACTO" class="btn btn-primary btn-block btn-lg">Enviar mensaje</button>
                                 </div>
                             </div>
                         </form>
@@ -1615,44 +1615,67 @@
             return http.status != 404;
         }
 
+        $('#submit_CONTACTO').click(function () {
 
-        $('#submit').click(function () {
-            var filename = $('#email').val() + "_datos.txt";
-            if (existeUrl("assets/" + filename)) {
-                filename = "_" + filename;
-            }
             var name = $('#name').val();
             var message = $('#message').val();
             var email = $('#email').val();
             var subject = $('#subject').val();
 
 
-            var parametros = {
-                "name": name,
-                "message": message,
-                "email": email,
-                "filename": filename,
-                "subject": subject
-            };
-
-            if (!name || !message || !email)
+            if (!name || !message || !email || !subject)
                 toastr.info('Existen campos vacios favor de llenarlos para continuar.');
             else {
                 $.ajax({
                     type: "POST",
-                    url: "assets/sendemail.php",
-                    data: parametros,
+                    url: "sendbyemail.php",
+                    data: { name: name, message: message, email: email, subject: subject },
                     success: function (data) {
                         toastr.success('Mensaje enviado con éxito, en un momento te antederemos.');
-                        $('#name').val('');
-                        $('#message').val('');
-                        $('#email').val('');
-                        $('#subject').val('');
                     }
                 });
             }
 
         });
+
+
+        //$('#submit').click(function () {
+        //    var filename = $('#email').val() + "_datos.txt";
+        //    if (existeUrl("assets/" + filename)) {
+        //        filename = "_" + filename;
+        //    }
+        //    var name = $('#name').val();
+        //    var message = $('#message').val();
+        //    var email = $('#email').val();
+        //    var subject = $('#subject').val();
+
+
+        //    var parametros = {
+        //        "name": name,
+        //        "message": message,
+        //        "email": email,
+        //        "filename": filename,
+        //        "subject": subject
+        //    };
+
+        //    if (!name || !message || !email)
+        //        toastr.info('Existen campos vacios favor de llenarlos para continuar.');
+        //    else {
+        //        $.ajax({
+        //            type: "POST",
+        //            url: "assets/sendemail.php",
+        //            data: parametros,
+        //            success: function (data) {
+        //                toastr.success('Mensaje enviado con éxito, en un momento te antederemos.');
+        //                $('#name').val('');
+        //                $('#message').val('');
+        //                $('#email').val('');
+        //                $('#subject').val('');
+        //            }
+        //        });
+        //    }
+
+        //});
 
     </script>
 </body>
