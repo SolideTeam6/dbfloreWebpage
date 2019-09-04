@@ -1,1775 +1,295 @@
-﻿<!DOCTYPE html>
-<!--
-   Author:
-    0.1    Miguel Martinez
-           mmartinez@solidemx.com
-    0.2    Samuel Herrera
-           sherrera@solidemx.com
-    0.3    Samuel Herrera
-           sherrera@solidemx.com
-
--->
+<!doctype html>
 <html lang="en">
-<head>
+    <head>
+        <meta charset="utf-8">
+        <title>Die Blume Floristería </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Floristería Chihuahua">
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/stack-interface.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/socicon.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/flickity.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/iconsmind.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/jquery.steps.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/font-roboto.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700%7CMerriweather:300,300i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    </head>
+    <body class=" ">
+        <a id="start"></a>
+        <div class="nav-container nav-container--sidebar">
+            <div class="nav-sidebar-column bg--dark">
+                <div class="text-center text-block">
+                    <a href="index.html">
+                        <img alt="logo" class="logo" src="img/die_blume_web_logo_w.png" />
+                    </a>
+                    <p>
+                        Bienvenidos a la única florería en la ciudad que otorga una <em>experiencia</em> floral maravillosa.
+                        
+                    </p>
+                </div>
+                <hr>
+                <div class="text-block">
+                    <ul class="menu-vertical">
+                        <li>
+                            <a href="#start">
+                                <span>Home</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#about">
+                                <span>Nosotros</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#service">
+                                <span>Servicios</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#work">
+                                <span>Nuestro trabajo</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <a class="btn btn--lg btn--primary type--uppercase" style="background: #25D366 !important;border-color:#25D366 !important" href="https://wa.me/5216142236815">
+                    <span class="btn__text">
+                      <i class="socicon socicon-whatsapp icon icon--xs"></i>
+                    </span>
+                </a>
+                <hr>
+                <div>
+                    <ul class="social-list list-inline list--hover">
+                        <li>
+                            <a href="https://www.facebook.com/DBFlore/?fref=ts">
+                                <i class="socicon socicon-facebook icon icon--xs"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/dbflore/">
+                                <i class="socicon socicon-instagram icon icon--xs"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <div>
+                        <span class="type--fine-print type--fade">
+                            &copy; 
+                            <span class="update-year"></span> dbflore
+                        </span>
+                        <br>
+                        <span class="type--fine-print type--fade">Desarrollado por 
+                            <a href="solidemx.com">
+                                    Solidemx.com
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-sidebar-column-toggle visible-xs visible-sm" data-toggle-class=".nav-sidebar-column;active">
+                <i class="stack-menu"></i>
+            </div>
+        </div>
+        <div class="main-container">
+            <section class="cover height-100 imagebg text-center" data-overlay="2" id="home">
+                <div class="background-image-holder">
+                    <img alt="background" src="img/dbflore-1.jpg" />
+                </div>
+                <div class="container pos-vertical-center">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="h1--large type--uppercase">
+                                <em>
+                                    <strong>Die Blume Floristería</strong>
+                                </em>
+                            </h1>
+                            <p class="lead">Ven con nosotros a vivir una experiencia floral única en la ciudad.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <a id="about"></a>
+            <section class="text-center">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8 col-lg-6">
+                            <h1 class="type--uppercase">
+                                <em>
+                                    <strong>Conocenos.</strong>
+                                </em>
+                            </h1>
+                            <p class="lead">
+                                    Somos una florería encargada de no solo ofrecer arreglos florales ni regalos especiales si no que nuestro objetivo principal es brindar una EXPERIENCIA única y maravillosa a nuestros clientes.
+                            </p>
+                            <a href="http://www.bodas.com.mx/arreglos-florales-boda/die-blume-floristeria--e138908" target="_blank"><img width="125" height="125" id="wp-ratedWA-img-2016" src="http://cdn1.bodas.com.mx/img/badges/2016/badge-weddingawards_es_MX.jpg"></a>
+                            <img src="img/dbflore-canaco.jpeg" alt="" width="150px">
+                            <a href="https://www.bodas.com.mx/arreglos-florales-boda/die-blume-floristeria--e138908" target="_blank" title="Die Blume Floristería, ganador Wedding Awards 2017 bodas.com.mx"><img width="125" height="125" alt="Die Blume Floristería, ganador Wedding Awards 2017 bodas.com.mx" id="wp-ratedWA-img-2017" src="https://cdn1.bodas.com.mx/img/badges/2017/badge-weddingawards_es_MX.jpg"></a>
 
-    <title>Die Blume Floristería</title>
-    <!-- Meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Dbflore Floristeria #DbFlore #DieBlume #Die #flores #Arreglos #experienciamaravillosa ">
-    <meta name="keywords" content="Flores, Floristeria, Chihuahua, Florista, DieBlume, Die, Blume, solide,Solidemx" />
-    <meta name="author" content="Solidemx.com">
+                            <h6>*nominados a mejor floreria 2018 - canaco </h6>
 
-    <meta property="og:title" content="DieBlume Floristeria." />
-    <meta property="og:description" content="Floristeria La unica floristeria que te ofrece una experiencia maravillosa en chihuahua." />
-    <meta property="og:image" content="http://dbflore.com/assets/img/fb.jpg" />
-    <meta property="og:url" content="http://dbflore.com" />
-    <!-- Movil Meta -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.png" type="image/x-icon">
-    <link href='http://fonts.googleapis.com/css?family=Roboto+Mono:400,300,500,700' rel='stylesheet' type='text/css'> <!-- Body font -->
-    <link href='http://fonts.googleapis.com/css?family=Black+Ops+One' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/vendor/animate.min.css">
-    <link rel="stylesheet" href="assets/js/font-awesome/css/font-awesome.css">
-    <link rel="stylesheet" href="assets/vendor/ytplayer/css/jquery.mb.YTPlayer.min.css">
-    <link rel="stylesheet" href="assets/vendor/owl-carousel/css/owl.carousel.css">
-    <link rel="stylesheet" href="assets/vendor/owl-carousel/css/owl.carousel.plugins.css">
-    <link rel="stylesheet" href="assets/vendor/owl-carousel/css/owl.theme.default.css">
-    <link rel="stylesheet" href="assets/vendor/magnific-popup/css/magnific-popup.css">
-    <link rel="stylesheet" href="assets/css/helper.css">
-    <link rel="stylesheet" href="assets/css/theme.css">
-    <link rel="alternate stylesheet" media="screen" title="blue-theme" href="assets/css/styles/blue.css">
-    <link rel="alternate stylesheet" media="screen" title="brown-theme" href="assets/css/styles/brown.css">
-    <link rel="alternate stylesheet" media="screen" title="green-theme" href="assets/css/styles/green.css">
-    <link rel="alternate stylesheet" media="screen" title="purple-theme" href="assets/css/styles/purple.css">
-    <link rel="alternate stylesheet" media="screen" title="yellow-theme" href="assets/css/styles/yellow.css">
-    <link rel="stylesheet" href="assets/css/custom.css">
-    <link rel="stylesheet" href="assets/css/toastr.css">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133416512-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
 
-      gtag('config', 'UA-133416512-1');
-    </script>
+            <section class="cover height-100 imagebg">
+                <div class="background-image-holder">
+                    <img alt="background" src="img/dbflore-2.jpg" />
+                </div>
+            </section>
+            <a id="work"></a>
+            <section class="text-center">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8 col-lg-6">
+                            <h1 class="type--uppercase">
+                                <em>
+                                    <strong>Nuestro trabajo</strong>
+                                </em>
+                            </h1>
+                            <p class="lead">
+                                    Mira tu mismo... Estas son algunas de las experiencias que han disfrutado nuestros clientes ultimamente.
+                            </p>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+            
+            <section>
+                    <div class="masonry masonry--gapless">
+                        <div class="masonry-filter-container text-center row justify-content-center align-items-center">
+                            <span>Categoría:</span>
+                            <div class="masonry-filter-holder">
+                                <div class="masonry__filters" data-filter-all-text="Todas"></div>
+                            </div>
+                        </div>
+                        <div class="masonry__container bg--secondary">
+                            <div class="col-md-4 col-12 masonry__item" data-masonry-filter="Ramos">
+                                <div class="project-thumb hover-element height-40">
+                                    <a href="#">
+                                        <div class="hover-element__initial">
+                                            <div class="background-image-holder">
+                                                <img alt="background" src="img/dbflore-img-1.jpg" />
+                                            </div>
+                                        </div>
+                                        <div class="hover-element__reveal" data-overlay="9">
+                                            <div class="project-thumb__title">
+                                                <h5>Ramos</h5>
+                                                <span>Dedicatoria en vinil</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-12 masonry__item" data-masonry-filter="Ofrenda">
+                                    <div class="project-thumb hover-element height-40">
+                                        <a href="#">
+                                            <div class="hover-element__initial">
+                                                <div class="background-image-holder">
+                                                    <img alt="background" src="img/dbflore-img-2.jpg" />
+                                                </div>
+                                            </div>
+                                            <div class="hover-element__reveal" data-overlay="9">
+                                                <div class="project-thumb__title">
+                                                    <h5>Ofrenda</h5>
+                                                    <span>Ofrendas florales</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-12 masonry__item" data-masonry-filter="Arreglos">
+                                        <div class="project-thumb hover-element height-40">
+                                            <a href="#">
+                                                <div class="hover-element__initial">
+                                                    <div class="background-image-holder">
+                                                        <img alt="background" src="img/dbflore-img-3.jpg" />
+                                                    </div>
+                                                </div>
+                                                <div class="hover-element__reveal" data-overlay="9">
+                                                    <div class="project-thumb__title">
+                                                        <h5>Canasta Vinera.</h5>
+                                                        <span>Hermosa canasta con 24 rosas rojas y una botella de vino tinto.</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                        </div>
+                        <!--end of masonry__container-->
+                    </div>
+                    <!--end of masonry-->
+                </section>
 
-
-</head>
-<!--   oncontextmenu='return false'   -->
-<body data-spy="scroll" data-target="#scrollspy">
-    <div id="preloader">
-        <div class="pulse"></div>
-    </div>
-    <div id="body-content">
-        <section id="top-slidingbar-wrapper" class="slidingbar-fixed">
-            <div id="top-slidingbar">
+            <a id="service"></a>
+            <section class="text-center imagebg" data-gradient-bg="#4876BD,#5448BD,#8F48BD,#BD48B1">
                 <div class="container">
                     <div class="row">
-                        <div class="col col-md-4">
-                            <h4 class="top-slidingbar-heading text-gray-2">Información</h4>
-                            <hr class="hr-width-1 hr-double margin-top-15">
-                            <p class="small">
-                                Bienvenidos a la única florería en la ciudad que otorga una experiencia floral maravillosa.
-                            </p>
-                        </div>
-                        <div class="col col-md-4">
-                            <h4 class="top-slidingbar-heading text-gray-2">Contacto</h4>
-                            <hr class="hr-width-1 hr-double margin-top-15">
-                            <ul class="list-unstyled small">
-                                <li><a href="https://goo.gl/maps/7DinKHHjnoG2"><i class="fa fa-home"></i> Av José María Iglesias 6305, Chihuahua, Chih.</a></li>
-                                <li><i class="fa fa-phone"></i><a href="tel:4 21 79 19">4 21 79 19</a> </li>
-                                <li><i class="fa fa-envelope-o"></i><a href="mailto:davidpinon@dbflore.com">davidpinon@dbflore.com</a></li>
-                                <li><i class="fa fa-envelope-o"></i><a href="mailto:facturas@dbflore.com">facturas@dbflore.com</a></li>
-                            </ul>
-                        </div> <!-- /.col -->
-                        <div class="col col-md-4">
-                            <h4 class="top-slidingbar-heading text-gray-2">Siguenos en:</h4>
-                            <hr class="hr-width-1 hr-double margin-top-15">
-                            <ul class="social-icons margin-bottom-20">
-                                <li><a class="btn btn-social-min btn-white-bordered btn-lg" href="https://www.facebook.com/DBFlore/?fref=ts" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                <li><a class="btn btn-social-min btn-white-bordered btn-lg" href="" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="top-slidingbar-trigger-wrapper"><span class="top-slidingbar-trigger">+</span></div>
-        </section>
-        <header id="header-wrap">
-            <div id="header" class="header-md header-dark show-hide-on-scroll transparent">
-                <div id="scrollspy" class="container header-container">
-                    <div class="logo" style="width:23%;">
-                        <img src="assets/img/Logo/die_blume_web_logo_w.png" />
-                    </div>
-                    <nav class="navbar pull-right">
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-main" aria-expanded="false">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                        </div>
-                        <div id="nav-main" class="collapse navbar-collapse nav-uppercase mob-navbar-collapse-dark">
-                            <ul class="nav navbar-nav navbar-right nav-pills">
-                                <!-- <li class="active"><a class="mlc sm-scroll" href="#intro">Home</a></li> -->
-                                <li><a class="mlc sm-scroll" href="#intro">Home</a></li>
-                                <li><span class="nav-link-separator">/</span></li>
-                                <li><a class="mlc sm-scroll" href="#section-1">Nosotros</a></li>
-                                <li><span class="nav-link-separator">/</span></li>
-                                <li><a class="mlc sm-scroll" href="#section-2">Servicios</a></li>
-                                <li><span class="nav-link-separator">/</span></li>
-                                <li><a class="mlc sm-scroll" href="#section-3">Nuestro trabajo</a></li>
-                                <li><span class="nav-link-separator">/</span></li>
-                                <!-- <li><a class="mlc sm-scroll" href="#section-4">Promociones</a></li> -->
-                                <li><span class="nav-link-separator">/</span></li>
-                                <!-- <li><a class="mlc sm-scroll" href="#section-8">Contacto</a></li> -->
-                                <li><span class="nav-link-separator">/</span></li>
-                                <!-- <li><a class="mlc sm-scroll" href="#">Detalles de tu evento</a></li> -->
-                                <li class="active"><a class="mlc sm-scroll"  target="_blank" href="http://canacochihuahua.com/encuesta/floreria2018/">Vota Canaco 2018</a></li>
-                            </ul>
+                        <div class="col-md-8 col-lg-6">
+                            <div class="cta">
+                                <h2 class="h1 type--uppercase">
+                                    <em>
+                                        <strong>Solicita nuestros servicios</strong>
+                                    </em>
+                                </h2>
+                                <p class="lead">
+                                        Envío de arreglos florales y ramos a toda la ciudad de Chihuahua con una excelente calidad en el servicio y en el producto.
+                                </p>
 
-                        </div>
-
-                    </nav>
-
-                </div>
-            </div>
-        </header>
-        <section id="intro" class="bg-image-parallax" style="background-image: url(assets/img/Canaco/bacs.jpg);">
-            <div class="intro-inner">
-
-                <span class="cover bg-transparent-2-dark bg-transparent-gradient-2"></span>
-
-                <div class="intro-caption vertical-align-center text-center text-white">
-                    <!-- <img src="assets/img/Logo/die_blume_logo01_w.png" class="wow zoomIn" data-wow-delay="0.6s" /> -->
-                    <img  width="300" height="300" src="assets/img/Canaco/Canaco2.jpeg"  class="wow zoomIn" data-wow-delay="0.6s" />
-                    <!--<p class="intro-description wow fadeIn" data-wow-delay="0.4s">D a v i d   P ï ñ ó n</p>-->
-                    <!--<p class="intro-description wow fadeIn" data-wow-delay="0.4s">D a v i d   P ï ñ ó n</p>
-                    <p class="intro-description wow fadeIn" data-wow-delay="0.6s">Florista</p>-->
-                    <br>
-                    <p class="intro-description wow slideInLeft" data-wow-delay="0.6s">
-                      Gracias a tu preferencia!!! Por segundo año consecutivo <b>DIE BLUME FLORISTERÍA</b> es nominado para <b>EL MEJOR DE MI CIUDAD 2018</b>.
-                      <br>
-                      Te pedimos que votes por nosotros. Recuerda cada dispositivo móvil o computadora es un VOTO!! GRACIAS POR TU APOYO!!<i class="fa fa-heart"></i>
-                    </p>
-                    <!-- <p class="intro-description wow slideInLeft" data-wow-delay="0.6s">Una rosa es solamente una rosa ... <br /> hasta que la regalas con amor <i class="fa fa-heart"></i></p> -->
-                    <div class="margin-top-30">
-                        <!--<a href="#section-2" class="btn btn-white-bordered sm-scroll wow bounceIn" data-wow-delay="0s">Servicios</a>-->
-                        <!-- <a href="#section-4" class="btn btn-primary sm-scroll margin-top-10 wow slideInRight" data-wow-delay="0.2s">Ver promociones!</a> -->
-                        <a href="http://canacochihuahua.com/encuesta/floreria2018/" target="_blank" class="btn btn-primary sm-scroll margin-top-2 wow slideInRight">Vota por DbFlore como Mejor Florería</a>
-
-                    </div>
-                </div>
-
-                <div class="made-with-love hidden-xs">
-                    <p class="text-gray"><strong> </strong> by Solide. <span class="text-main"><i class="fa fa-heart-o"></i></span></p>
-                </div>
-            </div>
-            <a class="scroll-down-arrow sm-scroll text-center text-white" href="#section-1"><span><i class="fa fa-chevron-down"></i></span></a>
-        </section>
-        <section>
-          <div class="container">
-            <center>
-              <a href="http://canacochihuahua.com/encuesta/floreria2018/" target="_blank">
-                <img src="assets/img/Canaco/Canaco1.jpeg" />
-              </a>
-            </center>
-          </div>
-        </section>
-        <section id="section-1" class="about-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-
-                        <div class="heading heading-md heading-uppercase heading-center heading-hover wow fadeIn">
-                            <span class="heading-title-ghost">Sobre nosotros</span>
-                            <h2 class="heading-title">Sobre nosotros</h2>
-                            <br />
-                            <div class="row">
-                                <div class="col-md-2">
-                                    <div id="wp-ratedWA">
-                                        <a href="http://www.bodas.com.mx/arreglos-florales-boda/die-blume-floristeria--e138908" target="_blank"><img width="125" height="125" id="wp-ratedWA-img-2016" src="http://cdn1.bodas.com.mx/img/badges/2016/badge-weddingawards_es_MX.jpg" /></a>
-                                    </div>
-                                </div>
-                                <div class="col-md-8">
-                                    <p class="heading-tescription lead max-width-1000 margin-auto">
-                                        Somos una florería encargada de no solo ofrecer arreglos florales ni regalos especiales
-                                        si no que nuestro objetivo principal es brindar una EXPERIENCIA única y maravillosa
-                                        a nuestros clientes.
-                                    </p>
-                                </div>
-                                <div class="col-md-2">
-                                    <div id="wp-ratedWA">
-                                        <a href="https://www.bodas.com.mx/arreglos-florales-boda/die-blume-floristeria--e138908" target="_blank" title="Die Blume Floristería, ganador Wedding Awards 2017 bodas.com.mx"><img width="125" height="125" alt="Die Blume Floristería, ganador Wedding Awards 2017 bodas.com.mx" id="wp-ratedWA-img-2017" src="https://cdn1.bodas.com.mx/img/badges/2017/badge-weddingawards_es_MX.jpg" /></a>
-
-                                    </div>
-                                </div>
+                                <br>
                             </div>
-                            <hr class="hr-width-1 hr-5x border-main">
-                            <!-- End divider -->
-                        </div>
+                        </div>  
                     </div>
-                </div>
-            </div>
-            <div class="container margin-top-20">
-                <div class="row wow fadeIn" data-wow-delay="0.3s">
-                    <div class="col-sm-6 col-md-4">
-                        <!-- Begin info box-1 -->
-                        <div class="info-box info-box-1">
-                            <span class="info-box-icon"><i class="fa fa-check"></i></span>
-                            <div class="info-box-info">
-                                <h4 class="info-box-title">Misión</h4>
-                                <p class="info-box-text">
-                                    Crear arreglos florales con un diseño exclusivo al gusto de nuestros clientes, brindando un trabajo profesional, calidad y precio en cada uno de nuestros productos para transmitir todo tipo de sentimientos en ellos.
+                    <div class="row">                        
+                            <div class="col-md-12">
+                                <p class="lead">
+                                        Alternativas de pago:
                                 </p>
                             </div>
-                        </div>
-                        <!-- End info box-1 -->
-                    </div> <!-- /.col -->
-                    <div class="col-sm-6 col-md-4">
-                        <!-- Begin info box-1 -->
-                        <div class="info-box info-box-1">
-                            <span class="info-box-icon"><i class="fa fa-eye"></i></span>
-                            <div class="info-box-info">
-                                <h4 class="info-box-title">Visión</h4>
-                                <p class="info-box-text">
-                                    Ser una organización lider en el mercado de diseños florales, tanto para eventos sociales como personales basados en un servicio exclusivo y así llegar a cualquier rincón del país.
-                                </p>
-                            </div>
-                        </div>
-                        <!-- End info box-1 -->
-                    </div> <!-- /.col -->
-                    <div class="col-sm-6 col-md-4">
-                        <!-- Begin info box-1 -->
-                        <div class="info-box info-box-1">
-                            <!--span class="info-box-icon"><i class="fa fa-diamond"></i></span>
-                            <div class="info-box-info">
-                                <h4 class="info-box-title">Calidad</h4>
-                                <!--div id="fb-root"></div-->
-                            <div class="fb-page" data-href="https://www.facebook.com/DBFlore/?fref=ts" data-tabs="timeline" data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/DBFlore/?fref=ts"><a href="https://www.facebook.com/DBFlore/?fref=ts">Die Blume Floristeria</a></blockquote></div></div>
-                            <!--p class="info-box-text">
-                                Arreglos flores de una altisima calidad y con un diseño innovador que satisface las necesidades del cliente.
-                            </p-->
-                            <!--/div-->
-                        </div>
-                        <!-- End info box-1 -->
-                    </div>
-                </div>
-                <div class="row wow fadeIn" >
-                  <center>
-                    <h2 class="heading-title">Nominación Canaco 2017</h2>
-                    <video width="100%" height="100%" controls>
-                      <source src="assets/img/Canaco/Canaco3.mp4" type="video/mp4">
-                      Your browser does not support the video tag.
-                    </video>
-
-                  </center>
-                </div>
-            </div>
-        </section>
-        <section id="section-2" class="services-section bg-dark bg-image-parallax" style="background-image: url(assets/img/back.jpg);">
-            <span class="cover bg-transparent-8-5-dark"></span>
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-md-6">
-
-                        <div class="heading heading-md heading-uppercase text-white heading-hover wow fadeIn" data-wow-delay="0.2s">
-                            <span class="heading-title-ghost">Servicios</span>
-                            <h2 class="heading-title">Servicios</h2>
-
-                            <hr class="hr-width-1 hr-5x border-main">
-                            <p class="heading-tescription lead text-gray-2">
-                                Envío de arreglos florales y ramos a toda la ciudad de Chihuahua con una excelente calidad en el servicio y en el producto.
-                            </p>
                             <br>
-                            <a href="#" target="_blank" class="btn btn-white-bordered btn-rounded-5x"><i class="fa fa-shopping-cart"></i> Ir a la tienda!</a>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <!-- Begin info box-4 -->
-                                <div class="info-box info-box-4 info-box-white wow fadeIn">
-                                    <span class="info-box-icon square-icon bg-main text-white"><i class="fa fa-home"></i></span>
-                                    <div class="info-box-info">
-                                        <h4 class="info-box-title">Entrega a domicilio</h4>
-                                    </div>
-                                </div>
-                                <!-- End info box-4 -->
-                            </div> <!-- /.col -->
-                            <div class="col-md-12">
-                                <!-- Begin info box-4 -->
-                                <div class="info-box info-box-4 info-box-white wow fadeIn" data-wow-delay="0.2s">
-                                    <span class="info-box-icon square-icon bg-main text-white"><i class="fa fa-group"></i></span>
-                                    <div class="info-box-info">
-                                        <h4 class="info-box-title">Servicio para eventos</h4>
-                                    </div>
-                                </div>
-                                <!-- End info box-4 -->
-                            </div> <!-- /.col -->
-                            <div class="col-md-12">
-                                <!-- Begin info box-4 -->
-                                <div class="info-box info-box-4 info-box-white wow fadeIn" data-wow-delay="0.4s">
-                                    <span class="info-box-icon square-icon bg-main text-white"><i class="fa fa-cogs"></i></span>
-                                    <div class="info-box-info">
-                                        <h4 class="info-box-title">Arma tu propio arreglo</h4>
-                                    </div>
-                                </div>
-                                <!-- End info box-4 -->
-                            </div> <!-- /.col -->
-                            <div class="col-md-12">
-                                <!-- Begin info box-4 -->
-                                <div class="info-box info-box-4 info-box-white wow fadeIn" data-wow-delay="0.4s">
-                                    <span class="info-box-icon square-icon bg-main text-white"><i class="fa fa-credit-card"></i></span>
-                                    <div class="info-box-info">
-                                        <h4 class="info-box-title">Pago con tarjeta</h4>
-                                    </div>
-                                </div>
-                                <!-- End info box-4 -->
-                            </div> <!-- /.col -->
-                        </div><!-- /.row -->
-                    </div> <!-- /.col -->
-                </div><!-- /.row -->
-            </div> <!-- /.container -->
-        </section>
-        <!-- End section 2 -->
-        <!-- ==================================
-        ///// Begin section 3 (portfolio) /////
-        =================================== -->
-        <section id="section-3" class="portfolio-section no-padding-bottom padding-top-100">
-            <div class="container">
-                <div class="row wow fadeIn">
-                    <!-- Left column -->
-                    <div class="col-md-6">
-                        <!-- Begin heading
-                        ===================
-                        * Use class "heading-center" or "heading-right" to align heading.
-                        * Use class "heading-xs", "heading-sm", "heading-md", "heading-lg" or "heading-xlg" to shange heading size.
-                        * Use class "heading-hover" to enable heading hover effect.
-                        * Use class "heading-uppercase" to enable uppercase letters.
-                        -->
-                        <div class="heading heading-md heading-uppercase heading-hover">
-                            <span class="heading-title-ghost">Portafolio</span>
-                            <h2 class="heading-title">Portafolio</h2>
-                            <!-- Begin divider
-                            ===================
-                            * Use class "hr-width-1", "hr-width-2" -> up to "hr-width-10" to shange divider width.
-                            * Use class "hr-1x", "hr-2x", "hr-3x", "hr-4x" or "hr-5x" to shange divider size.
-                            * Use class "hr-dotted", "hr-dashed" or "hr-double" to shange divider style.
-                            -->
-                            <hr class="hr-width-1 hr-5x border-main">
-                            <!-- End divider -->
-                        </div>
-                        <!-- End heading -->
-                    </div> <!-- /.col -->
-                    <!-- Right column -->
-                    <div class="col-md-6">
-                        <p class="lead">
-                            <strong>Mira tu mismo...</strong> Estas son algunas de las experiencias que han disfrutado nuestros clientes ultimamente.
-                        </p>
-                    </div> <!-- /.col -->
-                </div> <!-- /.row -->
-            </div> <!-- /.container -->
-
-            <div class="container-fluid no-padding">
-                <!-- Begin isotope
-                ===================
-                * Use classes "gutter-1", "gutter-2" or "gutter-3" to add more space between items.
-                * Use class "col-1", "col-2", "col-3", "col-4", "col-5" or "col-6" for columns.
-                -->
-                <div class="isotope popup-gallery col-4">
-                    <!-- Begin isotope filter
-                    =========================== -->
-                    <div class="isotope-filter wow fadeIn" data-wow-delay="0.8s">
-                        <!-- Begin isotope filter toggle button -->
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed filter-toggle-btn no-radius text-uppercase" data-toggle="collapse" data-target="#isotope-filter-collapse">
-                                <span class="text-center">Filtro <i class="fa fa-chevron-down"></i></span>
-                            </button>
-                        </div>
-                        <!-- End isotope filter toggle button -->
-                        <!-- Begin isotope filter links
-                        ==================================
-                        * Use class "text-center" or "text-right" to align isotope filter links.
-                        * Note: class "mlc" = close filter menu when clicking filter link.
-                        -->
-                        <div class="isotope-filter-links collapse navbar-collapse max-width-1170 margin-auto text-uppercase" id="isotope-filter-collapse">
-                            <!--<a class="active no-radius" href="#" data-filter="*">Todos</a>-->
-                            <a class="active no-radius" href="#" data-filter=".photography">Ramos</a>
-                            <a class="no-radius" href="#" data-filter=".web-design">Arreglos</a>
-                            <a class="no-radius" href="#" data-filter=".graphics">Ofrendas florales</a>
-                            <a class="no-radius" href="#" data-filter=".branding">Eventos</a>
-                        </div>
-                        <!-- End isotope filter links -->
-                    </div>
-                    <div class="isotope-items-wrap wow fadeIn" data-wow-delay="0.4s">
-                        <!-- Grid sizer (do not remove!!!) -->
-                        <div class="grid-sizer"></div>
-                        <!--  Begin isotope item  -->
-                        <div class="isotope-item web-design">
-                            <!-- Begin portfolio item -->
-                            <div class="portfolio-item-wrap">
-                                <div class="portfolio-item">
-                                    <a class="item-link inline-popup-trigger" href="#portfolio-008">
-                                        <span class="cover bg-transparent-9-main"></span>
-                                        <img class="item-img" src="assets/img/editedimages12-09-16/arreglo7_.jpg" alt="image">
-                                        <div class="item-info text-white">
-                                            <h3 class="item-info-title">Arreglo</h3>
-                                            <p class="item-info-text"></p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <!-- Begin inline popup content. Class "mfp-hide" is required to make dialog hidden -->
-                                <div id="portfolio-008" class="inline-popup mfp-hide">
-                                    <div class="inline-popup-inner">
-                                        <div class="inline-popup-image bg-image" style="background-image: url(assets/img/editedimages12-09-16/arreglo7_.jpg); background-position: 50% 50%;"></div>
-                                        <!--<div class="row margin-top-40">
-                                            <div class="col-md-8 margin-bottom-20">
-                                                <h2 class="no-margin-top">Arreglo floral</h2>
-                                                <p></p>
-                                                <p></p>
-                                            </div>
-                                            <div class="col-md-4 margin-bottom-20 padding-left-40">
-                                                <ul class="list-unstyled">
-                                                    <li>Cliente: <strong><a href="#" target="_blank"></a></strong></li>
-                                                    <li>Fecha: <strong><a href="#" target="_blank">1 - Septiembre - 2016</a></strong></li>
-                                                    <li>Categoria <strong><a href="#" target="_blank">Arreglos</a></strong></li>
-                                                    <li>© David Piñón - Florista -2016</li>
-                                                </ul>
-                                            </div>
-                                        </div>-->
-                                    </div>
-                                    <a class="inline-popup-close" href="#"><i class="fa fa-times"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End isotope item -->
-                        <!--  Begin isotope item  -->
-                        <div class="isotope-item web-design">
-                            <div class="portfolio-item-wrap">
-                                <div class="portfolio-item">
-                                    <a class="item-link inline-popup-trigger" href="#portfolio-007">
-                                        <span class="cover bg-transparent-9-main"></span>
-                                        <img class="item-img" src="assets/img/editedimages12-09-16/arreglo8_.jpg" alt="image">
-                                        <div class="item-info text-white">
-                                            <h3 class="item-info-title">Arreglo</h3>
-                                            <p class="item-info-text"></p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div id="portfolio-007" class="inline-popup mfp-hide">
-                                    <div class="inline-popup-inner">
-                                        <div class="inline-popup-image bg-image" style="background-image: url(assets/img/editedimages12-09-16/arreglo8_.jpg); background-position: 50% 50%;"></div>
-                                        <!--<div class="row margin-top-40">
-                                            <div class="col-md-8 margin-bottom-20">
-                                                <h2 class="no-margin-top">Arreglo floral</h2>
-                                                <p></p>
-                                                <p></p>
-                                            </div>
-                                            <div class="col-md-4 margin-bottom-20 padding-left-40">
-                                                <ul class="list-unstyled">
-                                                    <li>Cliente: <strong><a href="#" target="_blank"></a></strong></li>
-                                                    <li>Fecha: <strong><a href="#" target="_blank">1 - Septiembre - 2016</a></strong></li>
-                                                    <li>Categoria <strong><a href="#" target="_blank">Arreglos</a></strong></li>
-                                                    <li>© David Piñón - Florista -2016</li>
-                                                </ul>
-                                             </div>
-                                        </div>-->
-                                    </div>
-                                    <a class="inline-popup-close" href="#"><i class="fa fa-times"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End isotope item -->
-                        <!--  Begin isotope item  -->
-                        <div class="isotope-item photography">
-                            <!-- Begin portfolio item -->
-                            <div class="portfolio-item-wrap">
-                                <div class="portfolio-item">
-                                    <a class="item-link inline-popup-trigger" href="#portfolio-6">
-                                        <span class="cover bg-transparent-9-main"></span>
-                                        <img class="item-img" src="assets/img/editedimages12-09-16/ramo1_.jpg" alt="image">
-                                        <div class="item-info text-white">
-                                            <h3 class="item-info-title">Ramo</h3>
-                                            <p class="item-info-text"></p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <!-- Begin inline popup content. Class "mfp-hide" is required to make dialog hidden -->
-                                <div id="portfolio-6" class="inline-popup mfp-hide">
-                                    <div class="inline-popup-inner">
-                                        <div class="inline-popup-image bg-image" style="background-image: url(assets/img/editedimages12-09-16/ramo1_.jpg); background-position: 50% 50%;"></div>
-                                        <!--<div class="row margin-top-40">
-                                            <div class="col-md-8 margin-bottom-20">
-                                                <h2 class="no-margin-top">Ramo</h2>
-                                                <p></p>
-                                                <p></p>
-                                            </div>
-                                            <div class="col-md-4 margin-bottom-20 padding-left-40">
-                                                <ul class="list-unstyled">
-                                                    <li>Cliente: <strong><a href="#" target="_blank"></a></strong></li>
-                                                    <li>Fecha: <strong><a href="#" target="_blank">1 - Semtiembre - 2016</a></strong></li>
-                                                    <li>Categoria <strong><a href="#" target="_blank">Ramos</a></strong></li>
-                                                    <li>© David Piñón - Florista -2016</li>
-                                                </ul>
-                                             </div>
-                                        </div>-->
-                                        <!-- /.row -->
-                                    </div> <!-- /.inline-popup-inner -->
-                                    <a class="inline-popup-close" href="#"><i class="fa fa-times"></i></a>
-                                </div>
-                                <!-- End inline popup content -->
-                            </div>
-                            <!-- End portfolio item -->
-                        </div>
-                        <!-- End isotope item -->
-                        <!-- Begin isotope item  -->
-                        <div class="isotope-item photography">
-                            <!-- Begin portfolio item -->
-                            <div class="portfolio-item-wrap">
-                                <div class="portfolio-item">
-                                    <a class="item-link inline-popup-trigger" href="#portfolio-7">
-                                        <span class="cover bg-transparent-9-main"></span>
-                                        <img class="item-img" src="assets/img/editedimages12-09-16/ramo2_.jpg" alt="image">
-                                        <div class="item-info text-white">
-                                            <h3 class="item-info-title">Ramo</h3>
-                                            <p class="item-info-text"></p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <!-- Begin inline popup content. Class "mfp-hide" is required to make dialog hidden -->
-                                <div id="portfolio-7" class="inline-popup mfp-hide">
-                                    <div class="inline-popup-inner">
-                                        <!-- Begin embed video (more info about reffering embed videos: https://www.feedthebot.com/pagespeed/defer-videos.htm) -->
-                                        <div class="inline-popup-image bg-image" style="background-image: url(assets/img/editedimages12-09-16/ramo2_.jpg); background-position: 50% 50%;"></div>
-                                        <!-- End embed video -->
-                                        <!--<div class="row margin-top-40">
-                                            <div class="col-md-8 margin-bottom-20">
-                                                <h2 class="no-margin-top">Ramo</h2>
-                                                <p></p>
-                                                <p></p>
-                                            </div>
-                                            <div class="col-md-4 margin-bottom-20 padding-left-40">
-                                                <ul class="list-unstyled">
-                                                    <li>Cliente: <strong><a href="#" target="_blank"></a></strong></li>
-                                                    <li>Fecha: <strong><a href="#" target="_blank"> 1 - Septiembre - 2016</a></strong></li>
-                                                    <li>Categoria <strong><a href="#" target="_blank">Ramos</a></strong></li>
-                                                    <li>© David Piñón - Florista -2016</li>
-                                                </ul>
-                                            </div>
-                                        </div>-->
-                                        <!-- /.row -->
-                                    </div> <!-- /.inline-popup-inner -->
-                                    <a class="inline-popup-close" href="#"><i class="fa fa-times"></i></a>
-                                </div>
-                                <!-- End inline popup content -->
-                            </div>
-                            <!-- End portfolio item -->
-                        </div>
-                        <!-- End isotope item -->
-                        <!-- Begin isotope item  -->
-                        <div class="isotope-item photography">
-                            <!-- Begin portfolio item -->
-                            <div class="portfolio-item-wrap">
-                                <div class="portfolio-item">
-                                    <a class="item-link inline-popup-trigger" href="#portfolio-8">
-                                        <span class="cover bg-transparent-9-main"></span>
-                                        <img class="item-img" src="assets/img/editedimages12-09-16/ramo3_.jpg" alt="image">
-                                        <div class="item-info text-white">
-                                            <h3 class="item-info-title">Ramo</h3>
-                                            <p class="item-info-text"></p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <!-- Begin inline popup content. Class "mfp-hide" is required to make dialog hidden -->
-                                <div id="portfolio-8" class="inline-popup mfp-hide">
-                                    <div class="inline-popup-inner">
-                                        <!-- Begin embed video (more info about reffering embed videos: https://www.feedthebot.com/pagespeed/defer-videos.htm) -->
-                                        <div class="inline-popup-image bg-image" style="background-image: url(assets/img/editedimages12-09-16/ramo3_.jpg); background-position: 50% 50%;"></div>
-                                        <!-- End embed video -->
-                                        <!--<div class="row margin-top-40">
-                                            <div class="col-md-8 margin-bottom-20">
-                                                <h2 class="no-margin-top">Ramo</h2>
-                                                <p></p>
-                                                <p></p>
-                                            </div>
-                                            <div class="col-md-4 margin-bottom-20 padding-left-40">
-                                                <ul class="list-unstyled">
-                                                    <li>Cliente: <strong><a href="#" target="_blank"></a></strong></li>
-                                                    <li>Fecha: <strong><a href="#" target="_blank"> 1 - Septiembre - 2016</a></strong></li>
-                                                    <li>Categoria <strong><a href="#" target="_blank">Ramos</a></strong></li>
-                                                    <li>© David Piñón - Florista -2016</li>
-                                                </ul>
-                                            </div>
-                                        </div>-->
-                                    </div> <!-- /.inline-popup-inner -->
-                                    <a class="inline-popup-close" href="#"><i class="fa fa-times"></i></a>
-                                </div>
-                                <!-- End inline popup content -->
-                            </div>
-                            <!-- End portfolio item -->
-                        </div>
-                        <!-- End isotope item -->
-                        <!-- Begin isotope item  -->
-                        <div class="isotope-item photography">
-                            <!-- Begin portfolio item -->
-                            <div class="portfolio-item-wrap">
-                                <div class="portfolio-item">
-                                    <a class="item-link inline-popup-trigger" href="#portfolio-9">
-                                        <span class="cover bg-transparent-9-main"></span>
-                                        <img class="item-img" src="assets/img/editedimages12-09-16/ramo4_.jpg" alt="image">
-                                        <div class="item-info text-white">
-                                            <h3 class="item-info-title">Ramo</h3>
-                                            <p class="item-info-text"></p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <!-- Begin inline popup content. Class "mfp-hide" is required to make dialog hidden -->
-                                <div id="portfolio-9" class="inline-popup mfp-hide">
-                                    <div class="inline-popup-inner">
-                                        <!-- Begin embed video (more info about reffering embed videos: https://www.feedthebot.com/pagespeed/defer-videos.htm) -->
-                                        <div class="inline-popup-image bg-image" style="background-image: url(assets/img/editedimages12-09-16/ramo4_.jpg); background-position: 50% 50%;"></div>
-                                        <!-- End embed video -->
-                                        <!--<div class="row margin-top-40">
-                                            <div class="col-md-8 margin-bottom-20">
-                                                <h2 class="no-margin-top">Ramo</h2>
-                                                <p></p>
-                                                <p></p>
-                                            </div>
-                                            <div class="col-md-4 margin-bottom-20 padding-left-40">
-                                                <ul class="list-unstyled">
-                                                    <li>Cliente: <strong><a href="#" target="_blank"></a></strong></li>
-                                                    <li>Fecha: <strong><a href="#" target="_blank"> 1 - Septiembre - 2016</a></strong></li>
-                                                    <li>Categoria <strong><a href="#" target="_blank">Ramos</a></strong></li>
-                                                    <li>Copyright ©2016, Dereochos die blume</li>
-                                                </ul>
-                                            </div>
-                                        </div>-->
-                                    </div> <!-- /.inline-popup-inner -->
-                                    <a class="inline-popup-close" href="#"><i class="fa fa-times"></i></a>
-                                </div>
-                                <!-- End inline popup content -->
-                            </div>
-                            <!-- End portfolio item -->
-                        </div>
-                        <!-- End isotope item -->
-                        <!-- Begin isotope item  -->
-                        <div class="isotope-item photography">
-                            <!-- Begin portfolio item -->
-                            <div class="portfolio-item-wrap">
-                                <div class="portfolio-item">
-                                    <a class="item-link inline-popup-trigger" href="#portfolio-10">
-                                        <span class="cover bg-transparent-9-main"></span>
-                                        <img class="item-img" src="assets/img/editedimages12-09-16/ramo5_.jpg" alt="image">
-                                        <div class="item-info text-white">
-                                            <h3 class="item-info-title">Ramo</h3>
-                                            <p class="item-info-text"></p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <!-- Begin inline popup content. Class "mfp-hide" is required to make dialog hidden -->
-                                <div id="portfolio-10" class="inline-popup mfp-hide">
-                                    <div class="inline-popup-inner">
-                                        <!-- Begin embed video (more info about reffering embed videos: https://www.feedthebot.com/pagespeed/defer-videos.htm) -->
-                                        <div class="inline-popup-image bg-image" style="background-image: url(assets/img/editedimages12-09-16/ramo5_.jpg); background-position: 50% 50%;"></div>
-                                        <!-- End embed video -->
-                                        <!--<div class="row margin-top-40">
-                                            <div class="col-md-8 margin-bottom-20">
-                                                <h2 class="no-margin-top">Ramo</h2>
-                                                <p></p>
-                                                <p></p>
-                                            </div>
-                                            <div class="col-md-4 margin-bottom-20 padding-left-40">
-                                                <ul class="list-unstyled">
-                                                    <li>Cliente: <strong><a href="#" target="_blank"></a></strong></li>
-                                                    <li>Fecha: <strong><a href="#" target="_blank"> 1 - Septiembre - 2016</a></strong></li>
-                                                    <li>Categoria <strong><a href="#" target="_blank">Ramos</a></strong></li>
-                                                    <li>© David Piñón - Florista -2016</li>
-                                                </ul>
-                                            </div>
-                                        </div>-->
-                                    </div> <!-- /.inline-popup-inner -->
-                                    <a class="inline-popup-close" href="#"><i class="fa fa-times"></i></a>
-                                </div>
-                                <!-- End inline popup content -->
-                            </div>
-                            <!-- End portfolio item -->
-                        </div>
-                        <!-- End isotope item -->
-                        <!-- Begin isotope item  -->
-                        <div class="isotope-item photography">
-                            <!-- Begin portfolio item -->
-                            <div class="portfolio-item-wrap">
-                                <div class="portfolio-item">
-                                    <a class="item-link inline-popup-trigger" href="#portfolio-101">
-                                        <span class="cover bg-transparent-9-main"></span>
-                                        <img class="item-img" src="assets/img/editedimages12-09-16/ramo6_.jpg" alt="image">
-                                        <div class="item-info text-white">
-                                            <h3 class="item-info-title">Ramo</h3>
-                                            <p class="item-info-text"></p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <!-- Begin inline popup content. Class "mfp-hide" is required to make dialog hidden -->
-                                <div id="portfolio-101" class="inline-popup mfp-hide">
-                                    <div class="inline-popup-inner">
-                                        <!-- Begin embed video (more info about reffering embed videos: https://www.feedthebot.com/pagespeed/defer-videos.htm) -->
-                                        <div class="inline-popup-image bg-image" style="background-image: url(assets/img/editedimages12-09-16/ramo6_.jpg); background-position: 50% 50%;"></div>
-                                        <!-- End embed video -->
-                                        <!--<div class="row margin-top-40">
-                                            <div class="col-md-8 margin-bottom-20">
-                                                <h2 class="no-margin-top">Ramo</h2>
-                                                <p></p>
-                                                <p></p>
-                                            </div>
-                                            <div class="col-md-4 margin-bottom-20 padding-left-40">
-                                                <ul class="list-unstyled">
-                                                    <li>Cliente: <strong><a href="#" target="_blank"></a></strong></li>
-                                                    <li>Fecha: <strong><a href="#" target="_blank"> 1 - Septiembre - 2016</a></strong></li>
-                                                    <li>Categoria <strong><a href="#" target="_blank">Ramos</a></strong></li>
-                                                    <li>© David Piñón - Florista -2016</li>
-                                                </ul>
-                                            </div>
-                                        </div>-->
-                                    </div> <!-- /.inline-popup-inner -->
-                                    <a class="inline-popup-close" href="#"><i class="fa fa-times"></i></a>
-                                </div>
-                                <!-- End inline popup content -->
-                            </div>
-                            <!-- End portfolio item -->
-                        </div>
-                        <!-- End isotope item -->
-                        <!-- Begin isotope item  -->
-                        <div class="isotope-item photography">
-                            <!-- Begin portfolio item -->
-                            <div class="portfolio-item-wrap">
-                                <div class="portfolio-item">
-                                    <a class="item-link inline-popup-trigger" href="#portfolio-102">
-                                        <span class="cover bg-transparent-9-main"></span>
-                                        <img class="item-img" src="assets/img/editedimages12-09-16/ramo7_.jpg" alt="image">
-                                        <div class="item-info text-white">
-                                            <h3 class="item-info-title">Ramo</h3>
-                                            <p class="item-info-text"></p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <!-- Begin inline popup content. Class "mfp-hide" is required to make dialog hidden -->
-                                <div id="portfolio-102" class="inline-popup mfp-hide">
-                                    <div class="inline-popup-inner">
-                                        <!-- Begin embed video (more info about reffering embed videos: https://www.feedthebot.com/pagespeed/defer-videos.htm) -->
-                                        <div class="inline-popup-image bg-image" style="background-image: url(assets/img/editedimages12-09-16/ramo7_.jpg); background-position: 50% 50%;"></div>
-                                        <!-- End embed video -->
-                                        <!--<div class="row margin-top-40">
-                                            <div class="col-md-8 margin-bottom-20">
-                                                <h2 class="no-margin-top">Ramo</h2>
-                                                <p></p>
-                                                <p></p>
-                                            </div>
-                                            <div class="col-md-4 margin-bottom-20 padding-left-40">
-                                                <ul class="list-unstyled">
-                                                    <li>Cliente: <strong><a href="#" target="_blank"></a></strong></li>
-                                                    <li>Fecha: <strong><a href="#" target="_blank"> 1 - Septiembre - 2016</a></strong></li>
-                                                    <li>Categoria <strong><a href="#" target="_blank">Ramos</a></strong></li>
-                                                    <li>© David Piñón - Florista -2016</li>
-                                                </ul>
-                                            </div>
-                                        </div>-->
-                                    </div> <!-- /.inline-popup-inner -->
-                                    <a class="inline-popup-close" href="#"><i class="fa fa-times"></i></a>
-                                </div>
-                                <!-- End inline popup content -->
-                            </div>
-                            <!-- End portfolio item -->
-                        </div>
-                        <!-- End isotope item -->
-                        <!-- Begin isotope item  -->
-                        <div class="isotope-item photography">
-                            <!-- Begin portfolio item -->
-                            <div class="portfolio-item-wrap">
-                                <div class="portfolio-item">
-                                    <a class="item-link inline-popup-trigger" href="#portfolio-103">
-                                        <span class="cover bg-transparent-9-main"></span>
-                                        <img class="item-img" src="assets/img/editedimages12-09-16/ramo8_.jpg" alt="image">
-                                        <div class="item-info text-white">
-                                            <h3 class="item-info-title">Ramo</h3>
-                                            <p class="item-info-text"></p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <!-- Begin inline popup content. Class "mfp-hide" is required to make dialog hidden -->
-                                <div id="portfolio-103" class="inline-popup mfp-hide">
-                                    <div class="inline-popup-inner">
-                                        <!-- Begin embed video (more info about reffering embed videos: https://www.feedthebot.com/pagespeed/defer-videos.htm) -->
-                                        <div class="inline-popup-image bg-image" style="background-image: url(assets/img/editedimages12-09-16/ramo8_.jpg); background-position: 50% 50%;"></div>
-                                        <!-- End embed video -->
-                                        <!--<div class="row margin-top-40">
-                                            <div class="col-md-8 margin-bottom-20">
-                                                <h2 class="no-margin-top">Ramo</h2>
-                                                <p></p>
-                                                <p></p>
-                                            </div>
-                                            <div class="col-md-4 margin-bottom-20 padding-left-40">
-                                                <ul class="list-unstyled">
-                                                    <li>Cliente: <strong><a href="#" target="_blank"></a></strong></li>
-                                                    <li>Fecha: <strong><a href="#" target="_blank"> 1 - Septiembre - 2016</a></strong></li>
-                                                    <li>Categoria <strong><a href="#" target="_blank">Ramos</a></strong></li>
-                                                    <li>© David Piñón - Florista -2016</li>
-                                                </ul>
-                                            </div>
-                                        </div>-->
-                                    </div> <!-- /.inline-popup-inner -->
-                                    <a class="inline-popup-close" href="#"><i class="fa fa-times"></i></a>
-                                </div>
-                                <!-- End inline popup content -->
-                            </div>
-                            <!-- End portfolio item -->
-                        </div>
-                        <!-- End isotope item -->
-                        <!-- Begin isotope item  -->
-                        <div class="isotope-item photography">
-                            <!-- Begin portfolio item -->
-                            <div class="portfolio-item-wrap">
-                                <div class="portfolio-item">
-                                    <a class="item-link inline-popup-trigger" href="#portfolio-104">
-                                        <span class="cover bg-transparent-9-main"></span>
-                                        <img class="item-img" src="assets/img/editedimages12-09-16/ramo9_.jpg" alt="image">
-                                        <div class="item-info text-white">
-                                            <h3 class="item-info-title">Ramo</h3>
-                                            <p class="item-info-text"></p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <!-- Begin inline popup content. Class "mfp-hide" is required to make dialog hidden -->
-                                <div id="portfolio-104" class="inline-popup mfp-hide">
-                                    <div class="inline-popup-inner">
-                                        <!-- Begin embed video (more info about reffering embed videos: https://www.feedthebot.com/pagespeed/defer-videos.htm) -->
-                                        <div class="inline-popup-image bg-image" style="background-image: url(assets/img/editedimages12-09-16/ramo9_.jpg); background-position: 50% 50%;"></div>
-                                        <!-- End embed video -->
-                                        <!--<div class="row margin-top-40">
-                                            <div class="col-md-8 margin-bottom-20">
-                                                <h2 class="no-margin-top">Ramo</h2>
-                                                <p></p>
-                                                <p></p>
-                                            </div>
-                                            <div class="col-md-4 margin-bottom-20 padding-left-40">
-                                                <ul class="list-unstyled">
-                                                    <li>Cliente: <strong><a href="#" target="_blank"></a></strong></li>
-                                                    <li>Fecha: <strong><a href="#" target="_blank"> 1 - Septiembre - 2016</a></strong></li>
-                                                    <li>Categoria <strong><a href="#" target="_blank">Ramos</a></strong></li>
-                                                    <li>© David Piñón - Florista -2016</li>
-                                                </ul>
-                                            </div>
-                                        </div>-->
-                                    </div> <!-- /.inline-popup-inner -->
-                                    <a class="inline-popup-close" href="#"><i class="fa fa-times"></i></a>
-                                </div>
-                                <!-- End inline popup content -->
-                            </div>
-                            <!-- End portfolio item -->
-                        </div>
-                        <!-- End isotope item -->
-                        <!-- Begin isotope item assets/img/editedimages07-09-16/ramo9_.jpg  ofrendas  -->
-                        <div class="isotope-item graphics">
-                            <div class="portfolio-item-wrap">
-                                <div class="portfolio-item">
-                                    <a class="item-link inline-popup-trigger" href="#portfolio-002">
-                                        <span class="cover bg-transparent-9-main"></span>
-                                        <img class="item-img" src="assets/img/editedimages12-09-16/ofrenda1_.jpg" alt="image">
-                                        <div class="item-info text-white">
-                                            <h3 class="item-info-title">Ofrenda floral</h3>
-                                            <p class="item-info-text"></p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div id="portfolio-002" class="inline-popup mfp-hide">
-                                    <div class="inline-popup-inner">
-                                        <div class="inline-popup-image bg-image" style="background-image: url(assets/img/editedimages12-09-16/ofrenda1_.jpg); background-position: 50% 50%;"></div>
-                                        <!--<div class="row margin-top-40">
-                                            <div class="col-md-8 margin-bottom-20">
-                                                <h2 class="no-margin-top">Ofrenda floral</h2>
-                                                <p></p>
-                                                <p></p>
-                                            </div>
-                                            <div class="col-md-4 margin-bottom-20 padding-left-40">
-                                                <ul class="list-unstyled">
-                                                    <li>Cliente: <strong><a href="#" target="_blank"></a></strong></li>
-                                                    <li>Fecha: <strong><a href="#" target="_blank">1 - Septiembre - 2016</a></strong></li>
-                                                    <li>Categoria <strong><a href="#" target="_blank">Ofrenda floral</a></strong></li>
-                                                    <li>© David Piñón - Florista -2016</li>
-                                                </ul>
-                                            </div>
-                                        </div>-->
-                                    </div>
-                                    <a class="inline-popup-close" href="#"><i class="fa fa-times"></i></a>
-                                </div>
-                            </div>¡
-                        </div>
-                        <!-- End isotope item -->
-                        <!-- Begin isotope item assets/img/editedimages07-09-16/ramo9_.jpg  -->
-                        <div class="isotope-item graphics">
-                            <div class="portfolio-item-wrap">
-                                <div class="portfolio-item">
-                                    <a class="item-link inline-popup-trigger" href="#portfolio-001">
-                                        <span class="cover bg-transparent-9-main"></span>
-                                        <img class="item-img" src="assets/img/editedimages12-09-16/ofrenda2_.jpg" alt="image">
-                                        <div class="item-info text-white">
-                                            <h3 class="item-info-title">Ofrenda floral</h3>
-                                            <p class="item-info-text"></p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div id="portfolio-001" class="inline-popup mfp-hide">
-                                    <div class="inline-popup-inner">
-                                        <div class="inline-popup-image bg-image" style="background-image: url(assets/img/editedimages12-09-16/ofrenda2_.jpg); background-position: 50% 50%;"></div>
-                                        <!--<div class="row margin-top-40">
-                                            <div class="col-md-8 margin-bottom-20">
-                                                <h2 class="no-margin-top">Ofrenda floral</h2>
-                                                <p></p>
-                                                <p></p>
-                                            </div>
-                                            <div class="col-md-4 margin-bottom-20 padding-left-40">
-                                                <ul class="list-unstyled">
-                                                    <li>Cliente: <strong><a href="#" target="_blank"></a></strong></li>
-                                                    <li>Fecha: <strong><a href="#" target="_blank">1 - Septiembre - 2016</a></strong></li>
-                                                    <li>Categoria <strong><a href="#" target="_blank">Ofrenda floral</a></strong></li>
-                                                    <li>© David Piñón - Florista -2016</li>
-                                                </ul>
-                                            </div>
-                                        </div>-->
-                                    </div>
-                                    <a class="inline-popup-close" href="#"><i class="fa fa-times"></i></a>
-                                </div>
-                            </div>
-                            <!-- End portfolio item -->
-                        </div>
-                        <!-- End isotope item -->
-                        <!-- Begin isotope item assets/img/editedimages07-09-16/ramo9_.jpg  -->
-                        <div class="isotope-item graphics">
-                            <div class="portfolio-item-wrap">
-                                <div class="portfolio-item">
-                                    <a class="item-link inline-popup-trigger" href="#portfolio-11">
-                                        <span class="cover bg-transparent-9-main"></span>
-                                        <img class="item-img" src="assets/img/editedimages12-09-16/ofrenda3_.jpg" alt="image">
-                                        <div class="item-info text-white">
-                                            <h3 class="item-info-title">Ofrenda floral</h3>
-                                            <p class="item-info-text"></p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div id="portfolio-11" class="inline-popup mfp-hide">
-                                    <div class="inline-popup-inner">
-                                        <div class="inline-popup-image bg-image" style="background-image: url(assets/img/editedimages12-09-16/ofrenda3_.jpg); background-position: 50% 50%;"></div>
-                                        <!--<div class="row margin-top-40">
-                                            <div class="col-md-8 margin-bottom-20">
-                                                <h2 class="no-margin-top">Ofrenda floral</h2>
-                                                <p></p>
-                                                <p></p>
-                                            </div>
-                                            <div class="col-md-4 margin-bottom-20 padding-left-40">
-                                                <ul class="list-unstyled">
-                                                    <li>Cliente: <strong><a href="#" target="_blank"></a></strong></li>
-                                                    <li>Fecha: <strong><a href="#" target="_blank">2016</a></strong></li>
-                                                    <li>Categoria <strong><a href="#" target="_blank">Ofrenda floral</a></strong></li>
-                                                    <li>© David Piñón - Florista -2016</li>
-                                                </ul>
-                                            </div>
-                                        </div>-->
-                                    </div>
-                                    <a class="inline-popup-close" href="#"><i class="fa fa-times"></i></a>
-                                </div>
-                            </div>
-                            <!-- End portfolio item -->
-                        </div>
-                        <!-- End isotope item -->
-                        <!-- Begin isotope item  -->
-                        <div class="isotope-item graphics">
-                            <!-- Begin portfolio item -->
-                            <div class="portfolio-item-wrap">
-                                <div class="portfolio-item">
-                                    <a class="item-link inline-popup-trigger" href="#portfolio-12">
-                                        <span class="cover bg-transparent-9-main"></span>
-                                        <img class="item-img" src="assets/img/editedimages12-09-16/ofrenda4_.jpg" alt="image">
-                                        <div class="item-info text-white">
-                                            <h3 class="item-info-title">Ofrenda floral</h3>
-                                            <p class="item-info-text"></p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <!-- Begin inline popup content. Class "mfp-hide" is required to make dialog hidden -->
-                                <div id="portfolio-12" class="inline-popup mfp-hide">
-                                    <div class="inline-popup-inner">
-                                        <div class="inline-popup-image bg-image" style="background-image: url(assets/img/editedimages12-09-16/ofrenda4_.jpg); background-position: 50% 50%;"></div>
-                                        <!-- End embed video -->
-                                        <!--<div class="row margin-top-40">
-                                            <div class="col-md-8 margin-bottom-20">
-                                                <h2 class="no-margin-top">Ofrenda floral</h2>
-                                                <p></p>
-                                                <p></p>
-                                            </div>
-                                            <div class="col-md-4 margin-bottom-20 padding-left-40">
-                                                <ul class="list-unstyled">
-                                                    <li>Cliente: <strong><a href="#" target="_blank"></a></strong></li>
-                                                    <li>Fecha: <strong><a href="#" target="_blank">2016</a></strong></li>
-                                                    <li>Categoria <strong><a href="#" target="_blank">Ofrenda floral</a></strong></li>
-                                                    <li>© David Piñón - Florista -2016</li>
-                                                </ul>
-                                            </div>
-                                        </div>-->
-                                    </div> <!-- /.inline-popup-inner -->
-                                    <a class="inline-popup-close" href="#"><i class="fa fa-times"></i></a>
-                                </div>
-                                <!-- End inline popup content -->
-                            </div>
-                            <!-- End portfolio item -->
-                        </div>
-                        <!-- End isotope item -->
-                        <!-- Begin isotope item  -->
-                        <div class="isotope-item graphics">
-                            <!-- Begin portfolio item -->
-                            <div class="portfolio-item-wrap">
-                                <div class="portfolio-item">
-                                    <a class="item-link inline-popup-trigger" href="#portfolio-13">
-                                        <span class="cover bg-transparent-9-main"></span>
-                                        <img class="item-img" src="assets/img/editedimages12-09-16/ofrenda5_.jpg" alt="image">
-                                        <div class="item-info text-white">
-                                            <h3 class="item-info-title">Ofrenda floral</h3>
-                                            <p class="item-info-text"></p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <!-- Begin inline popup content. Class "mfp-hide" is required to make dialog hidden -->
-                                <div id="portfolio-13" class="inline-popup mfp-hide">
-                                    <div class="inline-popup-inner">
-                                        <div class="inline-popup-image bg-image" style="background-image: url(assets/img/editedimages12-09-16/ofrenda5_.jpg); background-position: 50% 50%;"></div>
-                                        <!-- End embed video -->
-                                        <!--<div class="row margin-top-40">
-                                            <div class="col-md-8 margin-bottom-20">
-                                                <h2 class="no-margin-top">Ofrenda floral</h2>
-                                                <p></p>
-                                                <p></p>
-                                            </div>
-                                            <div class="col-md-4 margin-bottom-20 padding-left-40">
-                                                <ul class="list-unstyled">
-                                                    <li>Cliente: <strong><a href="#" target="_blank"></a></strong></li>
-                                                    <li>Fecha: <strong><a href="#" target="_blank">2016</a></strong></li>
-                                                    <li>Categoria <strong><a href="#" target="_blank">Ofrenda floral</a></strong></li>
-                                                    <li>© David Piñón - Florista -2016</li>
-                                                </ul>
-                                            </div>
-                                        </div>-->
-                                    </div> <!-- /.inline-popup-inner -->
-                                    <a class="inline-popup-close" href="#"><i class="fa fa-times"></i></a>
-                                </div>
-                                <!-- End inline popup content -->
-                            </div>
-                            <!-- End portfolio item -->
-                        </div>
-                        <!-- End isotope item
-                        <!-- Start event items  EVENTO -->
-                        <div class="isotope-item branding">
-                            <div class="portfolio-item-wrap">
-                                <div class="portfolio-item">
-                                    <a class="item-link inline-popup-trigger" href="#portfolio-80">
-                                        <span class="cover bg-transparent-9-main"></span>
-                                        <img class="item-img" src="assets/img/editedimages12-09-16/evento1_.jpg" alt="image">
-                                        <div class="item-info text-white">
-                                            <h3 class="item-info-title">Evento</h3>
-                                            <p class="item-info-text"></p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div id="portfolio-80" class="inline-popup mfp-hide">
-                                    <div class="inline-popup-inner">
-                                        <div class="inline-popup-image bg-image" style="background-image: url(assets/img/editedimages12-09-16/evento1_.jpg); background-position: 50% 50%;"></div>
-                                        <!--<div class="row margin-top-40">
-                                            <div class="col-md-8 margin-bottom-20">
-                                                <h2 class="no-margin-top">Evento</h2>
-                                                <p></p>
-                                                <p></p>
-                                            </div>
-                                            <div class="col-md-4 margin-bottom-20 padding-left-40">
-                                                <ul class="list-unstyled">
-                                                    <li>Cliente: <strong><a href="#" target="_blank"></a></strong></li>
-                                                    <li>Fecha: <strong><a href="#" target="_blank">1 - Septiemnbre - 2016</a></strong></li>
-                                                    <li>Categoria <strong><a href="#" target="_blank">Evento</a></strong></li>
-                                                    <li>©David Piñon -Florista- 2016</li>
-                                                </ul>
-                                            </div>
-                                        </div>-->
-                                    </div>
-                                    <a class="inline-popup-close" href="#"><i class="fa fa-times"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End event items-->
-                        <!-- Start event items-->
-                        <div class="isotope-item branding">
-                            <div class="portfolio-item-wrap">
-                                <div class="portfolio-item">
-                                    <a class="item-link inline-popup-trigger" href="#portfolio-81">
-                                        <span class="cover bg-transparent-9-main"></span>
-                                        <img class="item-img" src="assets/img/editedimages12-09-16/evento2_.jpg" alt="image">
-                                        <div class="item-info text-white">
-                                            <h3 class="item-info-title">Evento</h3>
-                                            <p class="item-info-text"></p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div id="portfolio-81" class="inline-popup mfp-hide">
-                                    <div class="inline-popup-inner">
-                                        <div class="inline-popup-image bg-image" style="background-image: url(assets/img/editedimages12-09-16/evento2_.jpg); background-position: 50% 50%;"></div>
-                                        <!--<div class="row margin-top-40">
-                                            <div class="col-md-8 margin-bottom-20">
-                                                <h2 class="no-margin-top">Evento</h2>
-                                                <p></p>
-                                                <p></p>
-                                            </div>
-                                            <div class="col-md-4 margin-bottom-20 padding-left-40">
-                                                <ul class="list-unstyled">
-                                                    <li>Cliente: <strong><a href="#" target="_blank"></a></strong></li>
-                                                    <li>Fecha: <strong><a href="#" target="_blank">1 - Septiemnbre - 2016</a></strong></li>
-                                                    <li>Categoria <strong><a href="#" target="_blank">Evento</a></strong></li>
-                                                    <li>©David Piñon -Florista- 2016</li>
-                                                </ul>
-                                            </div>
-                                        </div>-->
-                                    </div>
-                                    <a class="inline-popup-close" href="#"><i class="fa fa-times"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End event items-->
-                        <!-- Start event items-->
-                        <div class="isotope-item branding">
-                            <div class="portfolio-item-wrap">
-                                <div class="portfolio-item">
-                                    <a class="item-link inline-popup-trigger" href="#portfolio-82">
-                                        <span class="cover bg-transparent-9-main"></span>
-                                        <img class="item-img" src="assets/img/editedimages12-09-16/evento3_.jpg" alt="image">
-                                        <div class="item-info text-white">
-                                            <h3 class="item-info-title">Evento</h3>
-                                            <p class="item-info-text"></p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div id="portfolio-82" class="inline-popup mfp-hide">
-                                    <div class="inline-popup-inner">
-                                        <div class="inline-popup-image bg-image" style="background-image: url(assets/img/editedimages12-09-16/evento3_.jpg); background-position: 50% 50%;"></div>
-                                        <!--<div class="row margin-top-40">
-                                            <div class="col-md-8 margin-bottom-20">
-                                                <h2 class="no-margin-top">Evento</h2>
-                                                <p></p>
-                                                <p></p>
-                                            </div>
-                                            <div class="col-md-4 margin-bottom-20 padding-left-40">
-                                                <ul class="list-unstyled">
-                                                    <li>Cliente: <strong><a href="#" target="_blank"></a></strong></li>
-                                                    <li>Fecha: <strong><a href="#" target="_blank">1 - Septiemnbre - 2016</a></strong></li>
-                                                    <li>Categoria <strong><a href="#" target="_blank">Evento</a></strong></li>
-                                                    <li>©David Piñon -Florista- 2016</li>
-                                                </ul>
-                                            </div>
-                                        </div>-->
-                                    </div>
-                                    <a class="inline-popup-close" href="#"><i class="fa fa-times"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End event items-->
-                        <!-- Start event items-->
-                        <div class="isotope-item branding">
-                            <div class="portfolio-item-wrap">
-                                <div class="portfolio-item">
-                                    <a class="item-link inline-popup-trigger" href="#portfolio-83">
-                                        <span class="cover bg-transparent-9-main"></span>
-                                        <img class="item-img" src="assets/img/editedimages07-09-16/evento3_.jpg" alt="image">
-                                        <div class="item-info text-white">
-                                            <h3 class="item-info-title">Evento</h3>
-                                            <p class="item-info-text"></p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div id="portfolio-83" class="inline-popup mfp-hide">
-                                    <div class="inline-popup-inner">
-                                        <div class="inline-popup-image bg-image" style="background-image: url(assets/img/editedimages12-09-16/evento4_.jpg); background-position: 50% 50%;"></div>
-                                        <!--<div class="row margin-top-40">
-                                            <div class="col-md-8 margin-bottom-20">
-                                                <h2 class="no-margin-top">Evento</h2>
-                                                <p></p>
-                                                <p></p>
-                                            </div>
-                                            <div class="col-md-4 margin-bottom-20 padding-left-40">
-                                                <ul class="list-unstyled">
-                                                    <li>Cliente: <strong><a href="#" target="_blank"></a></strong></li>
-                                                    <li>Fecha: <strong><a href="#" target="_blank">1 - Septiemnbre - 2016</a></strong></li>
-                                                    <li>Categoria <strong><a href="#" target="_blank">Evento</a></strong></li>
-                                                    <li>©David Piñon -Florista- 2016</li>
-                                                </ul>
-                                            </div>
-                                        </div>-->
-                                    </div>
-                                    <a class="inline-popup-close" href="#"><i class="fa fa-times"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End event items-->
-                    </div>
-                    <!-- End isotope items wrap -->
+                            <div class="col-md-3"><img src="img/dbflore-oxxo.png" alt="" height="40px"></div>
+                            <div class="col-md-3"><img src="img/dbflore-pagando2.svg" alt="" height="30px"></div>
+                            <div class="col-md-3"><img src="img/dbflore-paypal.png" alt="" height="60px"></div>
+                            <div class="col-md-3"><img src="img/dbflore-visa.png" alt="" height="30px"></div>
+                        </div>  
+                    <!--end of row-->
                 </div>
-                <!-- End isotope -->
-            </div> <!-- /.container -->
-        </section>
-        <!-- End section 3 -->
-        <!-- ===================================
-        ///// Begin call to action section /////
-        ==================================== -->
-        <!--section class="call-to-action-section bg-dark-2">
-            <div class="container">
-                <div class="row wow fadeIn">
-                    <div class="col-md-8 padding-right-40">
-                        <h2 class="call-to-action-title text-uppercase text-white">Estas interesado en formar parte de esta gran experiencia ?</h2>
-                        <hr class="hr-width-1 hr-5x border-main">
-                        <p class="lead call-to-action-text text-gray-2">
-                            Quedarás 100% satisfecho y feliz después que hagamos la entrega de tu pedido.
-                        </p>
-                    </div>
-                    <div class="col-md-4">
-                        <a href="#section-8" target="_blank" class="btn btn-primary btn-block btn-rounded-5x btn-xlg sm-scroll">Contáctanos ahora mismo!</a>
-                    </div>
+                <!--end of container-->
+            </section>
+            <section class="cover height-50 imagebg">
+                <div class="background-image-holder">
+                    <img alt="background" src="img/dbflore-3.jpg" />
                 </div>
-            </div>
-        </section-->
-        <!-- End call to action section -->
-        <!-- ===============================
-        ///// Begin section 4 (prices) /////
-        ====================================
-        * Use class "angle-left-top", "angle-right-top", "angle-left-bottom", "angle-right-bottom" to change section angle.
-        * Use class "bg-image-fixed" to make background image fixed (otherwise use class "bg-image").
-        * Use class "bg-image-parallax" to enable background image parallax effect (otherwise use class "bg-image").
-        * Use class "bg-pattern" if you use background patterns (example: http://subtlepatterns.com/). Combine with class "bg-image-fixed".
-        -->
-        <section id="section-4" class="prices-section padding-top-100 bg-dark bg-image-parallax" style="background-image: url(assets/img/corazon_sol.jpg);">
-            <!-- Element cover
-            ===================
-            * Use background transparent color classes for colored opacity (example: "bg-transparent-6-dark", "bg-transparent-8-5-red" ... 1 to 95). Look into "helper.css" file for more info.
-            -->
-            <span class="cover bg-transparent-7-0-dark"></span>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <!-- Begin heading
-                        ===================
-                        * Use class "heading-center" or "heading-right" to align heading.
-                        * Use class "heading-xs", "heading-sm", "heading-md", "heading-lg" or "heading-xlg" to shange heading size.
-                        * Use class "heading-hover" to enable heading hover effect.
-                        * Use class "heading-uppercase" to enable uppercase letters.
-                        -->
-                        <div class="heading heading-md heading-uppercase text-white heading-hover wow fadeIn">
-                            <span class="heading-title-ghost">Promociones</span>
-                            <h2 class="heading-title">Promociones</h2>
-                            <br /><br />
-
-                            <!-- Begin divider
-                            ===================
-                            * Use class "hr-width-1", "hr-width-2" -> up to "hr-width-10" to shange divider width.
-                            * Use class "hr-1x", "hr-2x", "hr-3x", "hr-4x" or "hr-5x" to shange divider size.
-                            * Use class "hr-dotted", "hr-dashed" or "hr-double" to shange divider style.
-                            -->
-                            <hr class="hr-width-1 hr-5x border-main">
-                            <p class="lead"><strong>Aprovecha nuestras promociones</strong> <i class="fa fa-check"></i> </p>
-                            <!-- End divider -->
-                        </div>
-                        <!-- End heading -->
-                    </div> <!-- /.col -->
-                </div> <!-- /.row -->
-            </div> <!-- /.container -->
-            <!-- Begin prices -->
-            <div class="prices wow fadeIn" data-wow-delay="0.6s">
-                <div class="container">
-                    <div class="owl-carousel prices-carousel dots-outside nav-outside-top" data-items="1" data-margin="20" data-nav="true" data-tablet-landscape="2" data-tablet-portrait="2" data-mobile-landscape="2" data-mobile-portrait="1">
-
-
-                        <!-- Begin price box
-                        ======================
-                        * Use class "price-box-dark" for dark style.
-                        -->
-                        <!--<div class="price-box price-box-dark" style="visibility: hidden;">
-                            <div class="pr-box price-heading">
-                                <i class="fa fa-gift fa-2x"></i>
-                                <h3 class="price-title">Bodas y XV años</h3>
-                            </div>
-                            <div class="pr-box price-box-price">
-                                <div class="price"><span class="price-currency">$</span>5500</div>
-                            </div>
-                            <div class="pr-box price-features">
-                                <ul class="list-unstyled">
-                                    <li>25 centros de mesa</li>
-                                    <li>Arreglo de carro</li>
-                                    <li>Arreglo de mesa</li>
-                                    <li>Arreglo de salón</li>
-                                    <li>2 regalos sorpresa</li>
-                                </ul>
-                            </div>
-                            <div class="pr-box price-footer">
-                                <a href="#section-8" class="btn btn-white-bordered">Ordenar ahora</a>
-                            </div>
-                        </div>-->
-                        <div class="price-box price-box-dark price-box-featured">
-                            <div class="price-box-ribbon" style="font-size: 13px;">Aprovecha</div>
-                            <div class="pr-box price-heading">
-                                <i class="fa fa-heart-o"></i>
-                                <h3 class="price-title">Promoción permanente</h3>
-                            </div>
-                            <div class="pr-box price-box-price">
-                                <div class="price"><span class="price-currency">%</span>10</div>
-                            </div>
-                            <div class="pr-box price-features">
-                                <ul class="list-unstyled">
-                                    <li><b>de descuento en todos los eventos</b></li>
-                                    <li>Deja volar tu imaginación y regala amor <i class="fa fa-heart"></i></li>
-                                    <li></li>
-                                    <li style="text-decoration: underline;">
-                                        <!--<br />Válido hasta el 31 de Enero <br />-->
-                                    </li>
-                                    <li style="font-style: italic;">
-                                        Menciona esta promo en sucursal
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="pr-box price-footer">
-                                <a href="#section-8" class="btn btn-white-bordered">Ordenar ahora</a>
-                            </div>
-                        </div>
-                        <!-- End price box -->
-                        <!--<div class="price-box price-box-dark price-box-featured" style="visibility: hidden;">
-                            <div class="price-box-ribbon">Próximamente</div>
-                            <div class="pr-box price-heading">
-                                <i class="fa fa-heart"></i>
-                                <h3 class="price-title">10 de Mayo</h3>
-                            </div>
-                            <div class="pr-box price-box-price">
-                                <div class="price"><span class="price-currency">%</span>20</div>
-                            </div>
-                            <div class="pr-box price-features">
-                                <ul class="list-unstyled">
-                                    <li>Compras mayores a $350</li>
-                                    <li>(No aplica en ramos)</li>
-                                    <li>No acumulable</li>
-                                </ul>
-                            </div>
-                            <div class="pr-box price-footer">
-                                <a href="#section-8" class="btn btn-primary">Ordenar ahora</a>
-                            </div>
-                        </div>-->
-                        <!-- End price box -->
-                        <!-- Begin price box
-                        ======================
-                        * Use class "price-box-dark" for dark style.
-                        -->
-                        <!--div class="price-box price-box-dark">
-                            <div class="price-box-ribbon">No disponible</div>
-                            <div class="pr-box price-heading">
-                                <i class="fa fa-plus"></i>
-                                <h3 class="price-title">Arreglo premium mas regalo</h3>
-                            </div>
-                            <div class="pr-box price-box-price">
-                                <div class="price"><span class="price-currency">$</span>---</div>
-                            </div>
-                            <div class="pr-box price-features">
-                                <ul class="list-unstyled">
-                                    <li>36 rosas mas 30 claveles</li>
-                                    <li>Regalo a escoger</li>
-                                    <li>Base con dulces m&m</li>
-                                </ul>
-                            </div>
-                            <div class="pr-box price-footer">
-                                <a href="#" class="btn btn-white-bordered">Ordenar ahora</a>
-                            </div>
-                        </div>
-                        <!-- End price box -->
-
-                    </div>
-                    <!-- End prices carousel -->
-                </div> <!-- /.container -->
-            </div>
-            <!-- End prices -->
-        </section>
-        <!-- End section 4 -->
-        <!-- ===========================================
-        ///// Begin section 6 (blog/articles list) /////
-        ============================================ -->
-        <!-- End section 6 -->
-        <!-- =====================================
-        ///// Begin section 7 (testimonials) /////
-        ==========================================
-        * Use class "angle-left-top", "angle-right-top", "angle-left-bottom", "angle-right-bottom" to change section angle.
-        * Use class "bg-image-fixed" to make background image fixed (otherwise use class "bg-image").
-        * Use class "bg-image-parallax" to enable background image parallax effect (otherwise use class "bg-image").
-        * Use class "bg-pattern" if you use background patterns (example: http://subtlepatterns.com/). Combine with class "bg-image-fixed".
-        -->
-        <!--section id="section-7" class="testimonials-section bg-dark bg-image-parallax" style="background-image: url(assets/img/misc/bg-2.jpg);">
-            <span class="cover bg-transparent-9-5-dark"></span>
-            <div class="container">
-                <div class="row wow fadeIn" data-wow-delay="0.3s">
-                    <div class="col-md-12">
-                        <div class="testimonial-wrap tm-center max-width-800 margin-auto">
-                            <div class="owl-carousel testimonial-carousel dots-outside text-white" data-items="1" data-loop="true">
-                                <div class="testimonial-item text-gray-2">
-                                    <img src="assets/img/testimonial/client-1.png" alt="image">
-                                    <blockquote>
-                                        <p>"A mi mujer le gustaron mucho las flores ademas el arreglo estaba hermoso muchas gracias."</p>
-                                        <small>Alejandro Chaires</small>
-                                    </blockquote>
-                                </div>
-                                <div class="testimonial-item text-gray-2">
-                                    <img src="assets/img/testimonial/client-2.png" alt="image">
-                                    <blockquote>
-                                        <p>"De verdad me fasino el tipo de flores que utiliza David de hecho me encanto, a parte maneja muy buenos precios CLARO QUE VOLVERÉ!!."</p>
-                                        <small>Roberto Valenzuela</small>
-                                    </blockquote>
-                                </div>
-                                <div class="testimonial-item text-gray-2">
-                                    <img src="assets/img/testimonial/client-3.png" alt="image">
-                                    <blockquote>
-                                        <p>"Excelente servicio me encantaron las flores y mi esposa quedo muy satisfecha con el regalo, muchas gracias Die Blume."</p>
-                                        <small>Samuel Herrera</small>
-                                    </blockquote>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section-->
-        <!-- End section 7 -->
-        <!-- ================================
-        ///// Begin section 8 (contact) /////
-        =====================================
-        * Use class "angle-left-top", "angle-right-top", "angle-left-bottom", "angle-right-bottom" to change section angle.
-        * Use class "bg-image-fixed" to make background image fixed (otherwise use class "bg-image").
-        * Use class "bg-image-parallax" to enable background image parallax effect (otherwise use class "bg-image").
-        * Use class "bg-pattern" if you use background patterns (example: http://subtlepatterns.com/). Combine with class "bg-image-fixed".
-        -->
-        <section id="section-8" class="contact-section bg-dark bg-image-parallax" style="background-image: url(assets/img/misc/bg-1.jpg);">
-            <!-- Element cover
-            ===================
-            * Use background transparent color classes for colored opacity (example: "bg-transparent-6-dark", "bg-transparent-8-5-red" ... 1 to 95). Look into "helper.css" file for more info.
-            -->
-            <span class="cover bg-transparent-9-dark bg-transparent-gradient-1"></span>
-            <div class="container">
-                <div class="row wow fadeIn">
-                    <!-- Left column -->
-                    <div class="col-md-7">
-                        <!-- Begin heading
-                        ===================
-                        * Use class "heading-center" or "heading-right" to align heading.
-                        * Use class "heading-xs", "heading-sm", "heading-md", "heading-lg" or "heading-xlg" to shange heading size.
-                        * Use class "heading-hover" to enable heading hover effect.
-                        * Use class "heading-uppercase" to enable uppercase letters.
-                        -->
-                        <div class="heading heading-md heading-uppercase heading-hover">
-                            <span class="heading-title-ghost">Contacto</span>
-                            <h2 class="heading-title text-white">Contacto</h2>
-                            <!-- Begin divider
-                            ===================
-                            * Use class "hr-width-1", "hr-width-2" -> up to "hr-width-10" to shange divider width.
-                            * Use class "hr-1x", "hr-2x", "hr-3x", "hr-4x" or "hr-5x" to shange divider size.
-                            * Use class "hr-dotted", "hr-dashed" or "hr-double" to shange divider style.
-                            -->
-                            <hr class="hr-width-1 hr-5x border-main">
-                            <!-- End divider -->
-                            <p class="heading-tescription lead text-gray-2">
-                                Ven con nosotros a vivir una experiencia floral única en la ciudad.
-
-                            </p>
-                        </div>
-                        <!-- End heading -->
-                    </div> <!-- /.col -->
-                    <!-- Right column -->
-                    <div class="col-md-5 text-gray-2 padding-left-40">
-                        <div class="contact-info">
-                            <p><a href="https://goo.gl/maps/7DinKHHjnoG2"><i class="fa fa-home" style="color: white;"></i> Av José María Iglesias 6305, Chihuahua, Chih.</a></p>
-                            <p><i class="fa fa-phone"></i><a href="tel:4 21 79 19">&nbsp;4 21 79 19</a></p>
-                            <p><i class="fa fa-envelope"></i> <a href="mailto:davidpinon@dbflore.com" target="_blank">davidpinon@dbflore.com</a></p>
-                            <p><i class="fa fa-envelope"></i> <a href="mailto:facturas@dbflore.com" target="_blank">facturas@dbflore.com</a></p>
-                        </div>
-                        <h5 class="margin-top-40 margin-bottom-20">Siguenos:</h5>
-                        <!-- Begin social icons -->
-                        <ul class="social-icons margin-bottom-20">
-                            <li><a class="btn btn-social-min btn-white-bordered btn-lg" href="https://www.facebook.com/DBFlore/?fref=ts" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                            <li><a class="btn btn-social-min btn-white-bordered btn-lg" href="" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                        </ul>
-                        <!-- End social icons -->
-                    </div> <!-- /.col -->
-                </div> <!-- /.row -->
-                <div class="row">
-                    <div class="col-md-12">
-                        <!-- Begin contact form
-                        ========================= -->
-
-                        <form name="frmContacto" class="margin-top-80 text-white wow fadeIn">
-                            <!-- Begin hidden required fields (https://github.com/agragregra/uniMail) -->
-                            <input type="hidden" name="project_name" value="yourwebsiteaddress.com"> <!-- Change value to your site name -->
-                            <input type="hidden" name="admin_email" value="your@email.com"> <!-- Change value to your email address (where a message will be sent) -->
-                            <input type="hidden" name="form_subject" value="Message from yourwebsiteaddress.com"> <!-- Change value to your own message subject -->
-                            <!-- End Hidden Required Fields -->
-                            <div class="row">
-                                <div class="col-lg-4">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control no-rounded" id="name" name="nombre" placeholder="Nombre" required="required" maxlength="40">
-                                    </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="form-group">
-                                        <input type="email" class="form-control no-rounded" id="email" name="email" placeholder="Correo" required="required" maxlength="40">
-                                    </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control no-rounded" id="subject" name="asunto" placeholder="Asunto" required="required" maxlength="50">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="form-group">
-                                        <textarea class="form-control no-rounded" name="mensaje" id="message" rows="8" placeholder="Mensaje (Solo texto)" required="required"></textarea>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <button type="button" value="Enviar" id="submit_CONTACTO" class="btn btn-primary btn-block btn-lg">Enviar mensaje</button>
-                                </div>
-                            </div>
-                        </form>
-                        <!-- End contact form -->
-                    </div> <!-- /.col-->
-                </div> <!-- /.row -->
-            </div> <!-- /.container -->
-        </section>
-        <!--div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                        <h4 class="modal-title" id="myModalLabel"><i class="fa fa-info-circle"></i>&nbsp; Esperala muy pronto</h4>
-                    </div>
-                    <div class="modal-body">
-                        <div style="text-align: center;">
-                            <img class="img-responsive" style="width: 100%;" src="assets/img/promo.jpeg" alt="image" />
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-primary" data-dismiss="modal">Continuar</button>
-                    </div>
-                </div>
-            </div>
-        </div-->
-        <!-- End section 8 -->
-        <!-- ===================
-        ///// Begin footer /////
-        ========================
-        * Use class "angle-left-top" or "angle-right-top" to change footer top angle.
-        -->
-        <footer id="footer" class="bg-dark text-white">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="col-md-3 col-md-offset-1">
-                            <div class="logo" style="width:100%;">
-                                <img src="assets/img/Logo/die_blume_web_logo_w.png" />
-                            </div>
-                        </div>
-                        <div class="col-md-2 col-md-offset-1" style="text-align: center;">
-                            <ul class="social-icons margin-bottom-20">
-                                <li><a class="btn btn-social-min btn-white-bordered btn-lg" href="https://www.facebook.com/DBFlore/?fref=ts" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                <li><a class="btn btn-social-min btn-white-bordered btn-lg" href="" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-2 col-md-offset-1" style="margin-top: 2%; text-align: center;">
-                            <p class="text-gray"><strong><span id="contador"></span> Visitas</strong></p>
-                        </div>
-                        <div class="col-md-2" style="text-align: center;">
-                            <div class="copyright small" style="margin-top: 8% !important;">
-                                <p style="font-size: 17px;">By <a href="http://www.solidemx.com/" style="font-size: 17px; color: crimson;"> Solide </a><i class="fa fa-2x fa-cube" style="color: crimson;"></i> </p>
-                            </div>
-                        </div>
-                    </div> <!-- /.col -->
-                </div>
-            </div> <!-- /.container -->
-        </footer>
-        <!-- End footer -->
-        <!-- Scroll to top button -->
-        <a href="#body-content" class="scrolltotop sm-scroll bg-main"><i class="fa fa-chevron-up"></i></a>
-    </div>
-    <script src="assets/vendor/jquery/jquery-1.11.1.min.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/vendor/ytplayer/js/jquery.mb.YTPlayer.min.js"></script>
-    <script src="assets/vendor/wow.min.js"></script> <!-- WOW animations JS (more info: http://mynameismatthieu.com/WOW/index.html) -->
-    <script src="assets/vendor/owl-carousel/js/owl.carousel.js"></script> <!-- Owl Carousel JS (more info: http://www.owlcarousel.owlgraphic.com) -->
-    <script src="assets/vendor/owl-carousel/js/owl.carousel.plugins.js"></script> <!-- Owl Carousel plugins JS (more info: http://www.owlcarousel.owlgraphic.com) -->
-    <script src="assets/vendor/magnific-popup/js/jquery.magnific-popup.min.js"></script> <!-- Magnific Popup JS (more info: http://dimsemenov.com/plugins/magnific-popup/) -->
-    <script src="assets/vendor/isotope.pkgd.min.js"></script> <!-- isotope JS (more info: http://isotope.metafizzy.co) -->
-    <script src="assets/vendor/imagesloaded.pkgd.min.js"></script> <!-- ImagesLoaded JS (https://github.com/desandro/imagesloaded) -->
-    <script src="assets/vendor/smoothscroll.js"></script> <!-- YTPlayer JS (more info: https://gist.github.com/theroyalstudent/4e6ec834be19bf077298) -->
-    <script src="assets/vendor/jquery.easing.min.js"></script> <!-- Easing JS (more info: http://gsgd.co.uk/sandbox/jquery/easing/) -->
-    <script src="assets/js/theme.js"></script>
-    <script src="assets/js/custom.js"></script>
-    <script src="assets/js/toastr.js"></script>
-    <div class="switcher-wrapper">
-        <div class="switcher">
-            <div class="color-box-list">
-                <ul>
-                    <!--li><a class="switcher-color-box default" href="javascript:chooseStyle('blue-theme', 60)"></a></li-->
-                    <li><a class="switcher-color-box blue" href="javascript:chooseStyle('blue-theme', 60)"></a></li>
-                    <li><a class="switcher-color-box brown" href="javascript:chooseStyle('brown-theme', 60)"></a></li>
-                    <li><a class="switcher-color-box green" href="javascript:chooseStyle('green-theme', 60)"></a></li>
-                    <li><a class="switcher-color-box purple" href="javascript:chooseStyle('purple-theme', 60)"></a></li>
-                    <li><a class="switcher-color-box yellow" href="javascript:chooseStyle('yellow-theme', 60)"></a></li>
-                </ul>
-            </div>
-            <hr class="no-margin-top">
+            </section>
         </div>
-    </div>
-    <script src="assets/vendor/styleswitch.js"></script>
-    <div id="fb-root"></div>
-    <!--<script type="text/javascript" src="https//cdn1.bodas.com.mx/_js/wp-rated.js?v=4"></script>-->
-    <!--<script>wpShowRatedWAv3('138908', '2016');</script>-->
-    <script type="text/javascript">
-        $(document).keydown(function (event) {
-            if (event.keyCode == 123) {
-                return false;
-            }
-            else if (event.ctrlKey && event.shiftKey && event.keyCode == 73) {
-                return false;  //Prevent from ctrl+shift+i
-            }
-        });
-
-        /*  $(window).load(function () {
-              $('#myModal').modal('show');
-          });*/
-
-        (function (d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-            js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.6";
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-
-        $("#contador").load('assets/contador.php');
-
-        function existeUrl(url) {
-            var http = new XMLHttpRequest();
-            http.open('HEAD', url, false);
-            http.send();
-            return http.status != 404;
-        }
-
-        $("#name").keypress(function (key) {
-            if ((key.charCode < 97 || key.charCode > 122)//letras mayusculas
-                && (key.charCode < 65 || key.charCode > 90) //letras minusculas
-                && (key.charCode != 241) //ñ
-                 && (key.charCode != 209) //Ñ
-                 && (key.charCode != 32) //espacio
-                 && (key.charCode != 225) //á
-                 && (key.charCode != 233) //é
-                 && (key.charCode != 237) //í
-                 && (key.charCode != 243) //ó
-                 && (key.charCode != 250) //ú
-                 && (key.charCode != 193) //Á
-                 && (key.charCode != 201) //É
-                 && (key.charCode != 205) //Í
-                 && (key.charCode != 211) //Ó
-                 && (key.charCode != 218) //Ú
-                //&& (key.charCode != 45) //-
-
-                )
-                return false;
-        });
-
-        $("#email").keypress(function (key) {
-            if ((key.charCode < 97 || key.charCode > 122)//letras mayusculas
-                && (key.charCode < 65 || key.charCode > 90) //letras minusculas
-                && (event.keyCode < 48 || event.keyCode > 57)
-                && (key.charCode != 95) //_
-                 && (key.charCode != 46) //.
-                && (key.charCode != 45) //-
-                && (key.charCode != 64) //@
-
-                )
-                return false;
-        });
-
-        $('#subject').keypress(function (key) {
-            if ((key.charCode < 97 || key.charCode > 122)//letras mayusculas
-                && (key.charCode < 65 || key.charCode > 90) //letras minusculas
-                && (event.keyCode < 48 || event.keyCode > 57)//numeros
-                && (key.charCode != 32) //espacio
-                && (key.charCode != 95) //_
-                 && (key.charCode != 46) //.
-                && (key.charCode != 45) //-
-                && (key.charCode != 225) //á
-                 && (key.charCode != 233) //é
-                 && (key.charCode != 237) //í
-                 && (key.charCode != 243) //ó
-                 && (key.charCode != 250) //ú
-                 && (key.charCode != 193) //Á
-                 && (key.charCode != 201) //É
-                 && (key.charCode != 205) //Í
-                 && (key.charCode != 211) //Ó
-                 && (key.charCode != 218) //Ú
-
-                )
-                return false;
-        });
-
-        function isEmail(email) {
-            var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-            return regex.test(email);
-        }
-
-        $('#submit_CONTACTO').click(function () {
-
-            var name = $('#name').val();
-            var message = $('#message').val();
-            var email = $('#email').val();
-            var subject = $('#subject').val();
-
-
-            if (!name || !message || !email || !subject)
-                toastr.info('Existen campos vacios favor de llenarlos para continuar.');
-            else {
-                if (isEmail(email.trim())) {
-                    $.ajax({
-                        type: "POST",
-                        url: "mensaje.php",
-                        data: { name: name, message: message, email: email, subject: subject },
-                        success: function (data) {
-                            toastr.success('Mensaje enviado con éxito, en un momento te antederemos.');
-                            $('#name').val('');
-                            $('textarea#message').val('');
-                            $('#email').val('');
-                            $('#subject').val('');
-                        }
-                    });
-                }
-                else
-                    toastr.info('Favor de ingresar un correo electrónico válido para continuar.');
-            }
-
-        });
-
-
-    </script>
-</body>
-
+        <!--<div class="loader"></div>-->
+        <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
+            <i class="stack-interface stack-up-open-big"></i>
+        </a>
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/flickity.min.js"></script>
+        <script src="js/easypiechart.min.js"></script>
+        <script src="js/parallax.js"></script>
+        <script src="js/typed.min.js"></script>
+        <script src="js/datepicker.js"></script>
+        <script src="js/isotope.min.js"></script>
+        <script src="js/ytplayer.min.js"></script>
+        <script src="js/lightbox.min.js"></script>
+        <script src="js/granim.min.js"></script>
+        <script src="js/jquery.steps.min.js"></script>
+        <script src="js/countdown.min.js"></script>
+        <script src="js/twitterfetcher.min.js"></script>
+        <script src="js/spectragram.min.js"></script>
+        <script src="js/smooth-scroll.min.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
